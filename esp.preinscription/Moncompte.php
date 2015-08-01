@@ -13,8 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
     <meta name="author" content="webThemez.com">
-    <title>ESP Pré-inscription </title>
-    <link rel="favicon" href="assets/images/favicon.png">
+    <title>ESP | Pré-inscription </title>
+    <link rel="icon" href="assets/images/favicon.png" sizes="16x16" type="image/png">
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -44,12 +44,7 @@
             <ul class="nav navbar-nav pull-right mainNav">
                 <li ><a href="index.html">Accueil</a></li>
                 <li><a href="offreformation.html">Offres de formation</a></li>
-                <!--<li><a href="cours.html">Cours</a></li>
-                <li><a href="#">Forum</a></li>
-                <li ><a href="#">About</a></li>-->
-                <!--<li class="active"><a href="#">S'inscrire</a></li><!--
-                    <li><a href="connectre.html">Se Connecter</a></li>
-                    <li><a href="#">Contact</a></li>-->
+                    <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
