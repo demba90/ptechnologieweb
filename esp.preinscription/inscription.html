@@ -186,8 +186,17 @@
                             <label>Motivation</label>
                             <textarea class="form-control" id="message" placeholder="Pourquoi le choix de l'ESP ?" style="height:100px;"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-two">Valider pré-inscription</button>
-                        <button type="reset" class="btn btn-danger">Annuler</button><p><br/></p>
+
+                        <div  style="margin-top: 10px;" id="contact_form" class="col-md-5">
+                            <div class="row">
+                                <label for="captcha" >Recopiez le mot : <img src="captcha.php" alt="Captcha" /></label>
+                                <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Pour des raisons de sécurité, entré le code afficher en haut" />
+                            </div>
+                           </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-two">Valider pré-inscription</button>
+                            <button type="reset" class="btn btn-danger">Annuler</button><p><br/></p>
+                        </div>
                     </form>
 				</section>
                 <section id="haut">

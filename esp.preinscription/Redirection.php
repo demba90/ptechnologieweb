@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: thiam
@@ -10,6 +11,15 @@
  * Si on essaye de se connecter, on passe par ici
  * on vérifie l'authenticité et décider de la redirection vers la page
  */
+    if(!empty($_POST['captcha']) && !empty($_POST['nom']))
+    {
+        if($_POST['captcha'] == $_SESSION['captcha'])
+            echo 'Le captcha est bon, votre nom est '.$_POST['nom'];
+        else
+            echo 'Le captcha n\'est pas bon.';
+    }
+    else
+        echo 'Il faut remplir tous les champs.';
 
     if(isset($_POST["close"])){
         header('Location: index.html');
@@ -27,4 +37,5 @@
              */
         header('Location: Moncompte.php');
     }
+
 ?>
