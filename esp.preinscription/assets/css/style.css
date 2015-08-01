@@ -54,13 +54,20 @@ label {
 /* Header */
 #head {
     background: #181015 url( ../images/Concept-banniere1.jpg) no-repeat;
-    background-size: cover;
-    min-height: 520px;
+    background-size: 1290px;
+    min-height: 500px;
     text-align: center;
-    font-weight: 300;
+    color: white;
     position: relative;
     border-top: 1px solid #0b9ff3;
     background-position-x: center;
+    width: 100%;
+   /* position: relative;
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transform: translate3d(-768px, 0px, 0px);
+    float: left;
+    list-style: none;*/
 }
 
 
@@ -890,9 +897,14 @@ padding:4px 8px;
     padding-top: 10%;
 }
 
-#phelpconn{
+#phelpconn0{
     padding-top: 10%;
     font-size: 18px;
+}
+
+#phelpconn{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #imagegestion{
     padding-top: 5%;
