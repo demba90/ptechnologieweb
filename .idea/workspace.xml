@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsable/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsable/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.html" afterPath="$PROJECT_DIR$/admin/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/admin.html" afterPath="$PROJECT_DIR$/responsable/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/calendar.html" afterPath="$PROJECT_DIR$/responsable/calendar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/candidats.html" afterPath="$PROJECT_DIR$/responsable/candidats.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/responsables.html" afterPath="$PROJECT_DIR$/admin/responsables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/stats.html" afterPath="$PROJECT_DIR$/responsable/stats.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
@@ -30,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/responsables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.266667" vertical-offset="2675" max-vertical-offset="3791">
-              <caret line="183" column="48" selection-start-line="183" selection-start-column="48" selection-end-line="185" selection-end-column="168" />
+            <state vertical-scroll-proportion="0.49117175" vertical-offset="2907" max-vertical-offset="3910">
+              <caret line="189" column="111" selection-start-line="189" selection-start-column="111" selection-end-line="189" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -43,36 +51,61 @@
       <file leaf-file-name="candidats.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.192307" vertical-offset="2760" max-vertical-offset="3417">
-              <caret line="181" column="55" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="3570">
+              <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.dataTables.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js">
+      <file leaf-file-name="calendar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/responsable/calendar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42372882" vertical-offset="2088" max-vertical-offset="2737">
-              <caret line="139" column="198" selection-start-line="139" selection-start-column="197" selection-end-line="139" selection-end-column="198" />
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="5814">
+              <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stats.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/responsable/stats.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="8755">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1438643771681" expanded="true" signature="44941:45000" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.dataTables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.js">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/responsable/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.352941" vertical-offset="152631" max-vertical-offset="205785">
-              <caret line="8991" column="28" selection-start-line="8991" selection-start-column="21" selection-end-line="8991" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1438641491324" expanded="true" signature="150003:150075" placeholder="..." />
-                <marker date="1438641491324" expanded="true" signature="150098:150165" placeholder="..." />
-                <marker date="1438641491324" expanded="true" signature="150209:150233" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/responsable/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="4930">
+              <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +120,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="340" max-vertical-offset="4046">
+              <caret line="31" column="146" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectre.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1887">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -95,17 +148,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/admin.html" />
         <option value="$PROJECT_DIR$/admin/candidats.html" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/responsable/index.html" />
         <option value="$PROJECT_DIR$/responsable/assets/DT_bootstrap.css" />
         <option value="$PROJECT_DIR$/responsable/assets/styles.css" />
-        <option value="$PROJECT_DIR$/admin/responsables.html" />
         <option value="$PROJECT_DIR$/responsable/assets/DT_bootstrap.js" />
-        <option value="$PROJECT_DIR$/responsable/candidats.html" />
         <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.js" />
         <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js" />
+        <option value="$PROJECT_DIR$/admin/admin.html" />
+        <option value="$PROJECT_DIR$/responsable/candidats.html" />
+        <option value="$PROJECT_DIR$/responsable/admin.html" />
+        <option value="$PROJECT_DIR$/responsable/calendar.html" />
+        <option value="$PROJECT_DIR$/responsable/stats.html" />
+        <option value="$PROJECT_DIR$/admin/responsables.html" />
       </list>
     </option>
   </component>
@@ -173,14 +229,6 @@
               <option name="myItemId" value="ptechnologieweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -189,6 +237,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,6 +252,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\ptechnologieweb\admin" />
+      <recent name="C:\wamp\www\ptechnologieweb\responsable" />
+      <recent name="C:\wamp\www\ptechnologieweb\responsable\images" />
+      <recent name="C:\wamp\www\ptechnologieweb\admin\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -280,14 +340,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5" vertical-offset="1774" max-vertical-offset="4811">
-          <caret line="125" column="70" selection-start-line="125" selection-start-column="70" selection-end-line="125" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/stats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8704">
@@ -318,14 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="629">
           <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/responsables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.266667" vertical-offset="2675" max-vertical-offset="3791">
-          <caret line="183" column="48" selection-start-line="183" selection-start-column="48" selection-end-line="185" selection-end-column="168" />
           <folding />
         </state>
       </provider>
@@ -396,9 +440,9 @@
           <caret line="8991" column="28" selection-start-line="8991" selection-start-column="21" selection-end-line="8991" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1438641491324" expanded="true" signature="150003:150075" placeholder="..." />
-            <marker date="1438641491324" expanded="true" signature="150098:150165" placeholder="..." />
-            <marker date="1438641491324" expanded="true" signature="150209:150233" placeholder="..." />
+            <marker date="1438641491324" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438641491324" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438641491324" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -413,21 +457,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/unit_testing/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.192307" vertical-offset="2760" max-vertical-offset="3417">
-          <caret line="181" column="55" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
+        <state vertical-scroll-proportion="-0.7975831" vertical-offset="1021" max-vertical-offset="1683">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/unit_testing/unit_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="511" max-vertical-offset="7055">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42372882" vertical-offset="2088" max-vertical-offset="2737">
-          <caret line="139" column="198" selection-start-line="139" selection-start-column="197" selection-end-line="139" selection-end-column="198" />
+        <state vertical-scroll-proportion="0.5161787" vertical-offset="804" max-vertical-offset="2737">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="340" max-vertical-offset="4046">
+          <caret line="31" column="146" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="3570">
+          <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="5814">
+          <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="4930">
+          <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/stats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="8755">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <marker date="1438643771681" expanded="true" signature="44941:45000" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/responsables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49117175" vertical-offset="2907" max-vertical-offset="3910">
+          <caret line="189" column="111" selection-start-line="189" selection-start-column="111" selection-end-line="189" selection-end-column="111" />
+          <folding />
         </state>
       </provider>
     </entry>
