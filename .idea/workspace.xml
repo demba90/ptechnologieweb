@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\wamp\www\ptechnologieweb\admin\candidats.html" afterPath="$PROJECT_DIR$/admin/responsables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/assets/DT_bootstrap.css" afterPath="$PROJECT_DIR$/responsable/assets/DT_bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.html" afterPath="$PROJECT_DIR$/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/buttons.html" afterPath="$PROJECT_DIR$/admin/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/calendar.html" afterPath="$PROJECT_DIR$/admin/calendar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/candidats.html" afterPath="$PROJECT_DIR$/responsable/candidats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/form.html" afterPath="$PROJECT_DIR$/admin/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/formations.html" afterPath="$PROJECT_DIR$/admin/formations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.html" afterPath="$PROJECT_DIR$/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/index.html" afterPath="$PROJECT_DIR$/responsable/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/interface.html" afterPath="$PROJECT_DIR$/admin/interface.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/stats.html" afterPath="$PROJECT_DIR$/admin/stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/assets/styles.css" afterPath="$PROJECT_DIR$/responsable/assets/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/responsables.html" afterPath="$PROJECT_DIR$/admin/responsables.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
@@ -41,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/responsables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67255217" vertical-offset="2675" max-vertical-offset="3791">
-              <caret line="182" column="62" selection-start-line="182" selection-start-column="62" selection-end-line="182" selection-end-column="62" />
+            <state vertical-scroll-proportion="-7.266667" vertical-offset="2675" max-vertical-offset="3791">
+              <caret line="183" column="48" selection-start-line="183" selection-start-column="48" selection-end-line="185" selection-end-column="168" />
               <folding />
             </state>
           </provider>
@@ -54,9 +43,36 @@
       <file leaf-file-name="candidats.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="2176" max-vertical-offset="3417">
-              <caret line="150" column="89" selection-start-line="150" selection-start-column="89" selection-end-line="153" selection-end-column="130" />
+            <state vertical-scroll-proportion="-12.192307" vertical-offset="2760" max-vertical-offset="3417">
+              <caret line="181" column="55" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.dataTables.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42372882" vertical-offset="2088" max-vertical-offset="2737">
+              <caret line="139" column="198" selection-start-line="139" selection-start-column="197" selection-end-line="139" selection-end-column="198" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.dataTables.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.352941" vertical-offset="152631" max-vertical-offset="205785">
+              <caret line="8991" column="28" selection-start-line="8991" selection-start-column="21" selection-end-line="8991" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1438641491324" expanded="true" signature="150003:150075" placeholder="..." />
+                <marker date="1438641491324" expanded="true" signature="150098:150165" placeholder="..." />
+                <marker date="1438641491324" expanded="true" signature="150209:150233" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,10 +99,13 @@
         <option value="$PROJECT_DIR$/admin/candidats.html" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/responsable/index.html" />
-        <option value="$PROJECT_DIR$/responsable/candidats.html" />
         <option value="$PROJECT_DIR$/responsable/assets/DT_bootstrap.css" />
         <option value="$PROJECT_DIR$/responsable/assets/styles.css" />
         <option value="$PROJECT_DIR$/admin/responsables.html" />
+        <option value="$PROJECT_DIR$/responsable/assets/DT_bootstrap.js" />
+        <option value="$PROJECT_DIR$/responsable/candidats.html" />
+        <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.js" />
+        <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js" />
       </list>
     </option>
   </component>
@@ -140,18 +159,8 @@
               <option name="myItemId" value="ptechnologieweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ptechnologieweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptechnologieweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="responsable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -165,11 +174,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="responsable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,6 +245,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -234,8 +255,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -303,35 +322,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/responsables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.266667" vertical-offset="2675" max-vertical-offset="3791">
+          <caret line="183" column="48" selection-start-line="183" selection-start-column="48" selection-end-line="185" selection-end-column="168" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/responsable/assets/DT_bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2517" max-vertical-offset="3247">
-          <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="2551" max-vertical-offset="3247">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/assets/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/responsable/assets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3027" max-vertical-offset="3723">
+        <state vertical-scroll-proportion="2.441092" vertical-offset="1922" max-vertical-offset="3723">
           <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
+    <entry file="file://$PROJECT_DIR$/responsable/assets/DT_bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615" vertical-offset="2176" max-vertical-offset="3417">
-          <caret line="150" column="89" selection-start-line="150" selection-start-column="89" selection-end-line="153" selection-end-column="130" />
+        <state vertical-scroll-proportion="-6.470588" vertical-offset="1276" max-vertical-offset="2941">
+          <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/assets/form-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1751">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/responsables.html">
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/uniform.default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67255217" vertical-offset="2675" max-vertical-offset="3791">
-          <caret line="182" column="62" selection-start-line="182" selection-start-column="62" selection-end-line="182" selection-end-column="62" />
+        <state vertical-scroll-proportion="-0.17975831" vertical-offset="119" max-vertical-offset="10472">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="683">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.352941" vertical-offset="152631" max-vertical-offset="205785">
+          <caret line="8991" column="28" selection-start-line="8991" selection-start-column="21" selection-end-line="8991" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1438641491324" expanded="true" signature="150003:150075" placeholder="..." />
+            <marker date="1438641491324" expanded="true" signature="150098:150165" placeholder="..." />
+            <marker date="1438641491324" expanded="true" signature="150209:150233" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33281973" vertical-offset="45854" max-vertical-offset="163234">
+          <caret line="2710" column="10" selection-start-line="2710" selection-start-column="6" selection-end-line="2710" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.192307" vertical-offset="2760" max-vertical-offset="3417">
+          <caret line="181" column="55" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42372882" vertical-offset="2088" max-vertical-offset="2737">
+          <caret line="139" column="198" selection-start-line="139" selection-start-column="197" selection-end-line="139" selection-end-column="198" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
