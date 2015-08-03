@@ -22,6 +22,7 @@
 </head>
 </html>
 <?php
+include '../../ManageurDB.php';
 session_start();
 /**
  * Created by PhpStorm.
@@ -34,7 +35,12 @@ session_start();
  * Si on essaye de se connecter, on passe par ici
  * on vérifie l'authenticité et décider de la redirection vers la page
  */
-    if(!empty($_POST['captcha']) && !empty($_POST['nom']))
+
+$man = new ManageurDB();
+
+
+    if(isset($_POST["preins"])){
+        if(!empty($_POST['captcha']) && !empty($_POST['nom']))
     {
         if($_POST['captcha'] == $_SESSION['captcha'])
             echo 'Le captcha est bon, votre nom est '.$_POST['nom'];
@@ -43,8 +49,8 @@ session_start();
     }
     else
         echo 'Il faut remplir tous les champs.';
-
-    if(isset($_POST["close"])){
+    }
+    elseif(isset($_POST["close"])){
         header('Location: index.html');
     }elseif(isset($_POST["connexion"])){
             /*
@@ -58,7 +64,24 @@ session_start();
              * on fera une recherche aussi dynamique pour présenter automatiquement le dossier au candidat
              *
              */
-        header('Location: Moncompte.php');
+
+            $login = $_POST['email'];
+            $password = $_POST['password'];
+
+            $cone = $man->connectFunction($login, $password);
+
+            if($cone==false){
+
+                Header('Location:connectre.html');
+            }
+            else{
+
+                $_SESSION['login'] = $login;
+                $_SESSION['password'] = $password;
+                $_SESSION['cone'] = $cone;
+
+                Header('Location:Moncompte.php');
+            }
     }
 
 ?>

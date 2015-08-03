@@ -1,3 +1,25 @@
+<?php 
+
+include '../../../ManageurDB.php';
+
+$man = new ManageurDB();
+
+if(isset($_GET['dep'])){
+    $dep = $_GET['dep'];
+    switch($dep){
+
+        case "dgm":
+            $formation = $man->recupFormations($man->recupDepart("Mecanique"));
+            break;
+        case "dgi":
+            $formation = $man->recupFormations(recupDepart("Informatique"));
+            break;    
+    }
+}
+else
+header('Location:../offreformation.html');
+
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -64,10 +86,32 @@
             <section id="inscription" class="page-section section appear clearfix">
                 <br />
                 <br />
+                
+                </p>
                 <p class="" align="left" id="annonce">
-                    Dans le cadre des formations prévue pour l'année 2015 - 2016 le département génie mécanique offre une formation de trois(3) ans.
-                    Vous allez etre ingénieur de conception en mécanique après trois(3) ans de formation.
-                    Pour bénéficier de cette formation veuilez démarer la procédure de pré-inscrire.
+                <table>
+                    <tr>
+                        <th>Intitulé de la Formation</th>
+                        <th>Durée de la formation</th>
+                        <th>Descriptif</th>
+                        <th>Date d'ouverture</th>
+                        <th>Date de fermeture</th>
+                        <th>Prix En charge</th>
+                    </tr>
+                
+                <?php
+                while($uneForm=$formation->fetch()) {
+                    echo "<tr>";
+                    echo "<td>".$uneForm['intitutle']."</td>";
+                    echo "<td>".$uneForm['nbAnneeEtude']." ans</td>";
+                    echo "<td>".$uneForm['descriptif']."</td>";
+                    echo "<td>".$uneForm['dateOuverture']."</td>";
+                    echo "<td>".$uneForm['dateFermeture']."</td>";
+                    echo "<td>".$uneForm['prixEnCharge']."</td>";
+                    echo "</tr>";
+                }
+                ?>
+                </table>
                 <br />
                 <br />
                 </p>
