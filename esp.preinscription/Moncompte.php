@@ -85,14 +85,13 @@ if(isset($_SESSION['login'])){
                         $cone  = $_SESSION['cone'];
                         $candidat = $man->getInfos($cone['id_candidat']);
 
+                        echo $man->envoiMail();
+
                         echo $candidat['prenom']." ".$candidat['nom']." ".$candidat['nationalite'];
                     ?>
                     </br>
 
                 </p>
-
-
-
             </section>
 
         </div>
