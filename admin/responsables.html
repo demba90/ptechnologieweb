@@ -12,7 +12,6 @@
         <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="vendors/flot/excanvas.min.js"></script><![endif]-->
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -61,6 +60,45 @@
 
                                 </ul>
                             </li>
+                           <!-- <li class="dropdown">
+                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Content <i class="caret"></i>
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a tabindex="-1" href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Custom Pages</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Calendar</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a tabindex="-1" href="#">FAQ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Users <i class="caret"></i>
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a tabindex="-1" href="#">User List</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Search</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Permissions</a>
+                                    </li>
+                                </ul>
+                            </li>-->
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -71,17 +109,11 @@
             <div class="row-fluid">
                 <div class="span3" id="sidebar">
                     <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
-                        <li>
-                            <a href="admin.html"><i class="icon-chevron-right"></i> Tableau de bord</a>
-                        </li>
                         <li class="active">
-                            <a href="candidats.html"><i class="icon-chevron-right"></i>Liste des candidats</a>
+                            <a href="admin.html"><i class="icon-chevron-right"></i> Gestion des résponsables</a>
                         </li>
-                        <li>
-                            <a href="calendar.html"><i class="icon-chevron-right"></i> Calendrie</a>
-                        </li>
-                        <li>
-                            <a href="stats.html"><i class="icon-chevron-right"></i> Statistique</a>
+                        <li >
+                            <a href="responsables.html"><i class="icon-chevron-right"></i>Liste des résponsable</a>
                         </li>
                         <!--<li>
                             <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>
@@ -127,38 +159,28 @@
                             <div class="navbar navbar-inner block-header">
                                 <div class="muted pull-left">Liste des candidats</div>
                             </div>
+                            <form  align="center" action="#">
+                                <input type="submit" value="Ajouter un responsable" class="btn-info">
+                            </form>
                             <div class="block-content collapse in">
                                 <div class="span12">
                                     <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="example2">
+
                                         <thead>
                                             <tr>
-                                                <th>N° Dossier</th>
+                                                <th>Département</th>
                                                 <th>Prénom</th>
                                                 <th>Nom</th>
-                                                <th>Option</th>
-                                                <th>Filière choisie</th>
                                                 <th>Détailler</th>
                                                 <th>Modifier</th>
                                                 <th>Supprimer</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr class="gradeU">
-                                                <td>4152</td>
-                                                <td>Mouhamed</td>
-                                                <td>Gueye</td>
-                                                <td class="center">DIC</td>
-                                                <td class="center">Télécommunication</td>
-                                                <td class="center"><input type="submit" class="btn-info" value="détailler"></td>
-                                                <td class="center"><input type="submit" class="btn-primary" value="modifier"></td>
-                                                <td class="center"><input type="submit" class="btn-danger" value="supprimer"></td>
-                                            </tr>
-                                            <tr class="gradeU">
-                                                <td>41</td>
-                                                <td>Ngagne</td>
-                                                <td>Thiam</td>
-                                                <td class="center">DIC</td>
-                                                <td class="center">Informatique</td>
+                                            <tr class="gradeA">
+                                                <td>DGI</td>
+                                                <td>Gervese</td>
+                                                <td>Mendy</td>
                                                 <td class="center"><input type="submit" class="btn-info" value="détailler"></td>
                                                 <td class="center"><input type="submit" class="btn-primary" value="modifier"></td>
                                                 <td class="center"><input type="submit" class="btn-danger" value="supprimer"></td>
