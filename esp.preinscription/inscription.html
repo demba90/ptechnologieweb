@@ -20,7 +20,39 @@
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
+    <script src = "assets/js/getcustomer.asp"></script>
 	<![endif]-->
+    <!--
+        Script pour la gestion automatique des formations qui offrent
+    -->
+    <script>
+        function showCustomer(str)
+        {
+            var xmlhttp;
+            if (str=="")
+            {
+                document.getElementById("txtHint").innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","getcustomer.asp?q="+str,true);
+            xmlhttp.send();
+        }
+    </script>
 </head>
 
 <body>
@@ -144,7 +176,7 @@
                                 <div class="col-md-2">
                                     <div class="form-group" id="niveauetude">
                                         <label for="niveauetude"> Niveau Etude :</label>
-                                        <select name="nationnalite"  class="form-control">
+                                        <select name="nationnalite"  class="form-control" >
                                             <option value="baccaleaureat"> Baccaleauréat</option>
                                             <option value="l1"> L1</option>
                                             <option value="l2"> L2</option>
@@ -181,17 +213,17 @@
                         <fieldset>
                             <legend> Information sur la formation</legend>
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <div class="form-group" >
-                                        <label for="niveauetude"> Dèpartement:</label>
-                                        <select name="nationnalite"  class="form-control">
-                                            <option value="baccaleaureat"> Baccaleauréat</option>
-                                            <option value="l1"> L1</option>
-                                            <option value="l2"> L2</option>
-                                            <option value="licence">Licence</option>
-                                            <option value="master 1">Master 1</option>
-                                            <option value="master 2">Master 2</option>
-                                            <option value="doctorat">Doctorat</option>
+                                        <label for="niveauetude"> Département:</label>
+                                        <select name="nationnalite"  class="form-control" onchange="showCustomer(this.value)">
+                                            <!-- ces valeurs doivent etre lu dépuis la base de données-->
+                                            <option value="">Selectionne un département:</option>
+                                            <option value="baccaleaureat"> Génie Civil</option>
+                                            <option value="l1"> Génie Electricitté</option>
+                                            <option value="l2"> Génie Mécanique</option>
+                                            <option value="licence">Génie Informatique</option>
+                                            <option value="master 1">Géstion</option>
                                         </select>
                                     </div>
                                 </div>
@@ -268,10 +300,11 @@
 
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>-->
 	<script src="assets/js/jquery.cslider.js"></script>
 	<script src="assets/js/jquery.isotope.min.js"></script>
 	<script src="assets/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-	<script src="assets/js/custom.js"></script>-->
+	<script src="assets/js/custom.js"></script>
+    <script src="assets/js/getcustomer.asp"></script>
 </body>
 </html>
