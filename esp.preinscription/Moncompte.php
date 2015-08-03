@@ -5,6 +5,14 @@
  * Date: 31/07/2015
  * Time: 18:28
  */
+session_start();
+
+include '../../ManageurDB.php';
+
+$man = new ManageurDB();
+
+if(isset($_SESSION['login'])){
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,12 +80,18 @@
                 <p class="alert-info" align="center" id="annonce">
                     <hr width="100%">
                     Cette page est en conctruction
+                    <?php
+
+                        $cone  = $_SESSION['cone'];
+                        $candidat = $man->getInfos($cone['id_candidat']);
+
+                        echo $man->envoiMail();
+
+                        echo $candidat['prenom']." ".$candidat['nom']." ".$candidat['nationalite'];
+                    ?>
                     </br>
 
                 </p>
-
-
-
             </section>
 
         </div>
@@ -85,3 +99,9 @@
 
 </section>
 <!-- /container -->
+
+</body>
+</html>
+<?php 
+}
+?>
