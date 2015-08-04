@@ -40,12 +40,15 @@ session_start();
 					<li class="active"><a href="index.php">Accueil</a></li><?php if(!isset($_SESSION['login'])){?>
                     <li class="active"><a href="inscription.php">Pré-inscrire</a></li>
                     <li><a href="connectre.php">Se Connecter</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <?php } 
                     else{?>
                     <li class="active"><a href="suiviDossier.php">Suivi de Mon Dossier</a></li>
                     <li><a href="Moncompte.php">Mon compte</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li color="red"><a href="deconnexion.php" color="red"><FONT COLOR=#ff0000 >Deconnexion</FONT></a></li>
                     <?php } ?>
-					<li><a href="contact.html">Contact</a></li>
+					
 				</ul>
 			</div>
 			<!--/.nav-collapse -->

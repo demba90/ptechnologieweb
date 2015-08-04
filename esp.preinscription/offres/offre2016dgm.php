@@ -52,12 +52,12 @@ header('Location:../offreformation.html');
         <div class="navbar-header">
             <!-- Button for smallest screens -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img src="../assets/images/logo.png" alt="Techro HTML5 template"></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right mainNav">
-                <li ><a href="../index.html">Accueil</a></li>
+                <li ><a href="../index.php">Accueil</a></li>
                 <li class="active" ><a href="../offreformation.html">Offres de formation</a></li>
                 <li ><a href="../inscription.html">Pré-inscrire</a></li>
                 <li><a href="../connectre.html">Se Connecter</a></li>
@@ -140,7 +140,7 @@ header('Location:../offreformation.html');
                 <div class="col-md-6 panel">
                     <div class="panel-body">
                         <p class="simplenav">
-                            <a href="../index.html">Accueil</a> |
+                            <a href="../index.php">Accueil</a> |
                             <a href="../offreformation.html">Offres de formation</a> |
                             <a href="../inscription.html">Pré-inscrire</a> |
                             <a href="../connectre.html">Se Connecter</a> |

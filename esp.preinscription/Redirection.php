@@ -23,7 +23,6 @@
 </html>
 <?php
 include '../ManageurDB.php';
-session_start();
 /**
  * Created by PhpStorm.
  * User: thiam
@@ -89,7 +88,7 @@ $man = new ManageurDB();
                 Header('Location:connectre.html');
             }
             else{
-
+                session_start();
                 $_SESSION['login'] = $login;
                 $_SESSION['password'] = $password;
                 $_SESSION['cone'] = $cone;
