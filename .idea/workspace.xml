@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/Moncompte.php" afterPath="$PROJECT_DIR$/esp.preinscription/Moncompte.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" afterPath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
     <ignored path="ptechnologieweb.iws" />
@@ -76,21 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Moncompte.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Moncompte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68699837" vertical-offset="796" max-vertical-offset="2669">
-              <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
+            <state vertical-scroll-proportion="-0.9" vertical-offset="1000" max-vertical-offset="2703">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="63" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15042" max-vertical-offset="15793">
-              <caret line="922" column="20" selection-start-line="922" selection-start-column="20" selection-end-line="922" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.95021963" vertical-offset="15042" max-vertical-offset="15810">
+              <caret line="923" column="19" selection-start-line="923" selection-start-column="19" selection-end-line="923" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -131,8 +133,8 @@
         <option value="$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js" />
         <option value="$PROJECT_DIR$/responsable/candidats.html" />
         <option value="$PROJECT_DIR$/admin/responsables.html" />
-        <option value="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
         <option value="$PROJECT_DIR$/esp.preinscription/Moncompte.php" />
+        <option value="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -633,18 +635,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15042" max-vertical-offset="15793">
-          <caret line="922" column="20" selection-start-line="922" selection-start-column="20" selection-end-line="922" selection-end-column="20" />
+        <state vertical-scroll-proportion="-0.9" vertical-offset="1000" max-vertical-offset="2703">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="63" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68699837" vertical-offset="796" max-vertical-offset="2669">
-          <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.95021963" vertical-offset="15042" max-vertical-offset="15810">
+          <caret line="923" column="19" selection-start-line="923" selection-start-column="19" selection-end-line="923" selection-end-column="19" />
           <folding />
         </state>
       </provider>
