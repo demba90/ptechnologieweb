@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+include "../ManageurDB.php";
+
+$man = new ManageurDB();
+
+if(!isset($_SESSION['login'])){
+    header('Location:index.php');
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -39,7 +50,7 @@
                                     </li>
                                     <li class="divider"></li>
                                     <li>
-                                        <a tabindex="-1" href="index.html">Logout</a>
+                                        <a tabindex="-1" href="logout.php">Logout</a>
                                     </li>
                                 </ul>
                             </li>
@@ -121,7 +132,7 @@
                             <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                         </li>
                         <li>
-                            <a href="stats.html"><i class="icon-chevron-right"></i> Statistique</a>
+                            <a href="stats.php"><i class="icon-chevron-right"></i> Statistique</a>
                         </li>
                         <!--<li>
                             <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>

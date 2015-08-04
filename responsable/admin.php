@@ -6,7 +6,7 @@ include "../ManageurDB.php";
 $man = new ManageurDB();
 
 if(!isset($_SESSION['login'])){
-    header('Location:index.html');
+    header('Location:index.php');
 }
 ?>
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ if(!isset($_SESSION['login'])){
                                     </li>
                                     <li class="divider"></li>
                                     <li>
-                                        <a tabindex="-1" href="index.html">Logout</a>
+                                        <a tabindex="-1" href="logout.php">Logout</a>
                                     </li>
                                 </ul>
                             </li>
@@ -129,10 +129,10 @@ if(!isset($_SESSION['login'])){
                             <a href="candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
                         </li>
                         <li>
-                            <a href="calendar.html"><i class="icon-chevron-right"></i> Calendrie</a>
+                            <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                         </li>
                         <li>
-                            <a href="stats.html"><i class="icon-chevron-right"></i> Statistique</a>
+                            <a href="statisque.php"><i class="icon-chevron-right"></i> Statistique</a>
                         </li>
                         <!--<li>
                             <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>

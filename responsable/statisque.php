@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+include "../ManageurDB.php";
+
+$man = new ManageurDB();
+
+if(!isset($_SESSION['login'])){
+    header('Location:index.php');
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -40,7 +51,7 @@
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a tabindex="-1" href="index.html">Logout</a>
+                                <a tabindex="-1" href="logout.php">Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -50,9 +61,7 @@
                         <a href="#">Tableau de bord</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Suivis <b class="caret"></b>
-
-                        </a>
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Suivis <b class="caret"></b></a>
                         <ul class="dropdown-menu" id="menu1">
                             <li>
                                 <a href="#">Reports</a>
@@ -113,16 +122,16 @@
         <div class="span3" id="sidebar">
             <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
                 <li>
-                    <a href="admin.html"><i class="icon-chevron-right"></i> Tableau de bord</a>
+                    <a href="admin.php"><i class="icon-chevron-right"></i> Tableau de bord</a>
                 </li>
                 <li>
-                    <a href="candidats.html"><i class="icon-chevron-right"></i>Liste des candidats</a>
+                    <a href="candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
                 </li>
                 <li>
-                    <a href="calendar.html"><i class="icon-chevron-right"></i> Calendrie</a>
+                    <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                 </li>
                 <li class="active">
-                    <a href="stats.html"><i class="icon-chevron-right"></i> Statistique</a>
+                    <a href="stats.php"><i class="icon-chevron-right"></i> Statistique</a>
                 </li>
                 <!--<li>
                     <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>

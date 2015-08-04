@@ -5,13 +5,11 @@
  * Date: 04/08/2015
  * Time: 10:57
  */
-if(!isset($_SESSION["login"])){
-    header("Location:../admin.php");
-}
+
 $femme = 0;
 $homme = 0;
 
-include "../ManageurDB.php";
+include "ManageurDB.php";
 $man = new ManageurDB();
 
 $femme = $man->getFemme();

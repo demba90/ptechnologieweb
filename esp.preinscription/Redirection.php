@@ -95,7 +95,7 @@ $man = new ManageurDB();
         echo 'Il faut remplir tous les champs.';
     }
 //    elseif(isset($_POST["close"])){
-//        header('Location: index.html');
+//        header('Location: index.php');
 //    }
     elseif(isset($_POST["connexion"])){
             /*

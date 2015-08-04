@@ -24,7 +24,7 @@ if(isset($_POST["signin"])){
             $cone = $man->connectAdmin($login, $password);
 
             if($cone==false){
-                Header('Location:index.html');
+                header('Location:index.php');
             }
             else{
                 session_start();
@@ -32,7 +32,7 @@ if(isset($_POST["signin"])){
                 $_SESSION['password'] = $password;
                 $_SESSION['cone'] = $cone;
 
-                Header('Location:admin.php');
+                header('Location:admin.php');
             }
     }
 

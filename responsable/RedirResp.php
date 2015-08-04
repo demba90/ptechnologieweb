@@ -24,7 +24,7 @@ if(isset($_POST["signin"])){
             $cone = $man->connectResponsable($login, $password);
 
             if($cone==false){
-                Header('Location:index.html');
+                Header('Location:index.php');
             }
             else{
                 session_start();
