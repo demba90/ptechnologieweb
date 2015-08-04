@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/Moncompte.php" afterPath="$PROJECT_DIR$/esp.preinscription/Moncompte.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/responsables.html" afterPath="$PROJECT_DIR$/admin/responsables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" afterPath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
     <ignored path="ptechnologieweb.iws" />
@@ -83,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.68699837" vertical-offset="796" max-vertical-offset="2669">
-              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+              <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -647,7 +644,7 @@
     <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68699837" vertical-offset="796" max-vertical-offset="2669">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
           <folding />
         </state>
       </provider>

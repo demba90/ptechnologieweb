@@ -70,7 +70,7 @@ if(isset($_SESSION['login'])){
                 <?php
                     $cone  = $_SESSION['cone'];
                     $candidat = $man->getInfos($cone['id_candidat']);
-                    echo "<h4> ".$candidat['prenom']." ".$candidat['nom']." </h4>";
+                    echo "<h3> ".$candidat['prenom']." ".$candidat['nom']." </h3>";
                 ?>
             </div>
 
