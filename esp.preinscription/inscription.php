@@ -3,8 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
-	<meta name="author" content="webThemez.com">
+	<meta name="description" content="dématérialisation.">
 	<title>Pré-inscription </title>
     <link rel="icon" href="assets/images/favicon.png" sizes="16x16" type="image/png">
 	<!--<link rel="favicon" href="assets/images/favicon.png">
@@ -51,6 +50,27 @@
             }
             xmlhttp.open("GET","getcustomer.asp?q="+str,true);
             xmlhttp.send();
+        }
+        function showOptione(str) {
+            if (str == "") {
+                document.getElementById("txtHintOp").innerHTML = "";
+                return;
+            } else {
+                if (window.XMLHttpRequest) {
+                    // code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp = new XMLHttpRequest();
+                } else {
+                    // code for IE6, IE5
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                        document.getElementById("txtHintOp").innerHTML = xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET","getfiliere.php?filiere="+str,true);
+                xmlhttp.send();
+            }
         }
     </script>
 </head>
