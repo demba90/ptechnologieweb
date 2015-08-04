@@ -285,46 +285,58 @@
 		}
 	}
 
-	//Fonction  d'envoi de mail
-	public function envoiMail(){
+	//Fonction d'envoi de mail
+	public function notification($mailinscrip,$mdpinscrip,$matri, $user_cle){
 
-		// SMTP
-		 $smtp_param = Swift_SmtpTransport::newInstance('smtp.yahoo.fr', 587)
-		 ->setUsername('biglock91@yahoo.fr')
-		 ->setPassword('mgathegame91');
+		require_once('./esp.preinscription/swiftmailer/lib/swift_required.php');
 
-		 // Instance Swiftmailer
-		 $instance_swiftmailer = Swift_Mailer::newInstance($smtp_param);
-		 
-		 // Instance message
-		 $message = Swift_Message::newInstance();
+		$to =$mailinscrip;
+		$sujet = 'Confirmation inscription';
+		$msg ='
+		<html><body>Bonjour, <br> Confirmation de vos informations personnelles.<br>
+		<b>Login</b>: '.$mailinscrip.'<br><b> Mot de passe</b>: '.$mdpinscrip.'<br> <b>Votre id Dossier</b>: '.$matri.' <br>
+		Pour activer votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/activ.php?cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
+		</body></html>';
 
-		$message->setSubject(
-utf8_encode('Ceci est le sujet SWIFTMAILER'))
-->setFrom(array('biglock91@yahoo.fr' => 'Adresse FROM'))
-->setTo(array('gueyemouhamed.gueye@gmail.com' => 'Adresse TO'))
-->setBody(
- '<html>
- <head></head>
- <body>
- <h1>Test de la librairie SWIFTMAILER</h1>
- Lorem ipsum <em>bla bla bla</em>
- </body>'
-, 'text/html')
-->setPriority(2);
+		$msg = htmlentities($msg,ENT_NOQUOTES,'UTF-8',false);
+		$msg = str_replace(array('&lt;','&gt;'),array('<','>'), $msg);
+		$msg = str_replace(array('&amp;lt;','&amp;gt'),array('&lt;','&gt;'), $msg);
+		$body=$msg;
+		$entete = "MIME-Version: 1.0\r\n";
+		$entete .= "Content-type: text/html; charset=UTF-8\r\n";
+		$entete .= 'From: CreatiO.Fr ::' . "\r\n" .
+				'Reply-To: contact@creatiq.fr' . "\r\n" .
+				'x-Mailer : PHP/' . phpversion();
 
-		$type = $message->getHeaders()->get('Content-Type');
-$type->setValue('text/html');
-$type->setParameter('charset', 'iso-8859-1');
+		$res = $this->smtpswiftmailer($to,$sujet,utf8_decode($body),$entete);
+		return $res;
 
-if ($instance_swiftmailer->send($message, $fail)) {
- echo 'Envoyé ';
-}else{
- echo 'ERREUR : ';
- print_r($fail);
-}
 	}
 
-}
+	public function smtpswiftmailer($to,$sujet,$body,$entete){
 
- ?>
+		$transport = Swift_SmtpTransport::newInstance()
+		->setHost('smtp.gmail.com')
+		->setPort(587) //465 
+		->setEncryption('tls')
+		->setUsername('gueyemouhamed.gueye@gmail.com')
+		->setPassword('Famathiam1991')
+		;
+
+		// Create the Mailer using your created Transport
+		$mailer = Swift_Mailer::newInstance($transport);
+
+		// Create a message
+		$message = Swift_Message::newInstance()
+		->setSubject($sujet)
+		->setFrom(array('gueyemouhamed.gueye@gmail.com'=>'ESP'))
+		->setTo($to)
+		->setBody($body, 'text/html', 'utf-8')
+		;
+		//debug($message);die();
+		// Send the message
+		$numSent = $mailer->send($message);
+		return $numSent;
+	}
+}
+?>

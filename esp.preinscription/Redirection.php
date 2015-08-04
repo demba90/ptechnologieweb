@@ -54,6 +54,8 @@ $man = new ManageurDB();
             $mail = $_POST['email'];
             $telephone = $_POST['telephone'];
 
+            $message = 
+
             
         }
             
