@@ -80,6 +80,10 @@ $man = new ManageurDB();
 
             //Lancement du mail de validation
             $m = $man->notification($mail,$telephone,$can, $dossier);
+
+            //Redirection
+            $_SESSION['notif'] = "notif";
+            header('Location:connectre.php');
             
         }
             

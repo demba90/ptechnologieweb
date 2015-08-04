@@ -4,13 +4,18 @@ include "../ManageurDB.php";
 
 $man = new ManageurDB();
 
-if(isset($_POST['cle'])){
-	$dossier = $_POST['cle'];
+if(isset($_GET['cle'])){
+	$dossier = intval($_GET['cle']);
+	$can = $_GET['can'];
 
 	$etat = "valide";
 
-	$ds = $man->majDossierStatut($dossier, $etat);
+	//Ajout de l'utilisateur
 
-	echo "<p>alert('Votre dossier a été validé avec succès)</p>";
+	$ds = $man->majDossierStatut($dossier, $etat);
+	session_start();
+	$_SESSION['active'] = "active";
+
+	header('Location:connectre.php');
 }
 ?>

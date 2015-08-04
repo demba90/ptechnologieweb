@@ -250,6 +250,7 @@
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET statut=? WHERE idDossierCandidature=?");
 		$req->execute(array($statut, $dossier));
 
+		print_r($req);
 		return $req;
 
 	}
@@ -296,7 +297,7 @@
 		$msg ='
 		<html><body>Bonjour, <br> Confirmation de vos informations personnelles.<br>
 		<b>Login</b>: '.$mailinscrip.'<br><b> Mot de passe</b>: '.$mdpinscrip.'<br> <b>Votre N0 de candidature</b>: '.$matri.' <br><br>
-		Pour terminer l\'activation de votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/validDossier.php?cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
+		Pour terminer l\'activation de votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/validDossier.php?can='.$matri.'&cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
 		</body></html>';
 
 		$msg = htmlentities($msg,ENT_NOQUOTES,'UTF-8',false);

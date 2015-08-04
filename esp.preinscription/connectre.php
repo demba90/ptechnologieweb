@@ -1,9 +1,6 @@
 <?php 
 session_start();
 
-if(isset($_SESSION['login'])){
-	header("Location:Moncompte.php");
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,6 +55,8 @@ if(isset($_SESSION['login'])){
 			<div class="row">
 				<div class="col-sm-8">
 					<h1>Connexion</h1>
+					<?php  if(isset($_SESSION['notif'])){?><script>alert("Un mail vous a été envoyé à votre adresse. Veuillez confirmer votre compte avant de pouvoir y accéder.");</script><?php session_destroy();}  ?>
+					<?php  if(isset($_SESSION['active'])){?><script>alert("Vous avez activé votre compte. Connectez-vous avec votre Mail et votre mot de passe pour continuer votre préinscription.");</script><?php session_destroy();} ?>
 				</div>
 			</div>
 		</div>
