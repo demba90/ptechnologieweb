@@ -70,7 +70,7 @@ if(isset($_SESSION['login'])){
                 <?php
                     $cone  = $_SESSION['cone'];
                     $candidat = $man->getInfos($cone['id_candidat']);
-                    echo "<h3> ".$candidat['prenom']." ".$candidat['nom']." </h3>";
+                    echo "<h3> Bonjour ".$candidat['prenom']." ".$candidat['nom']." </h3>";
                 ?>
                 <form class="form-inline" action="" method="post">
                     <input type="submit" name="logout" value="Déconnecter" class="btn-primary">
