@@ -25,32 +25,7 @@
         Script pour la gestion automatique des formations qui offrent
     -->
     <script>
-        function showCustomer(str)
-        {
-            var xmlhttp;
-            if (str=="")
-            {
-                document.getElementById("txtHint").innerHTML="";
-                return;
-            }
-            if (window.XMLHttpRequest)
-            {// code for IE7+, Firefox, Chrome, Opera, Safari
-                xmlhttp=new XMLHttpRequest();
-            }
-            else
-            {// code for IE6, IE5
-                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange=function()
-            {
-                if (xmlhttp.readyState==4 && xmlhttp.status==200)
-                {
-                    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
-                }
-            }
-            xmlhttp.open("GET","getcustomer.asp?q="+str,true);
-            xmlhttp.send();
-        }
+
         function showOptione(str) {
             if (str == "") {
                 document.getElementById("txtHintOp").innerHTML = "";
@@ -72,6 +47,7 @@
                 xmlhttp.send();
             }
         }
+
     </script>
 </head>
 
@@ -245,7 +221,7 @@
                                 <div class="col-md-3">
                                     <div class="form-group" >
                                         <label for="niveauetude"> Département:</label>
-                                        <select name="departement"  class="form-control" onchange="showCustomer(this.value)">
+                                        <select name="departement"  class="form-control" onchange="showOptione(this.value)">
                                             <!-- ces valeurs doivent etre lu dépuis la base de données-->
                                             <option value="">Selectionne un département:</option>
                                             <option value="baccaleaureat"> Génie Civil</option>
@@ -253,9 +229,10 @@
                                             <option value="l2"> Génie Mécanique</option>
                                             <option value="licence">Génie Informatique</option>
                                             <option value="master 1">Géstion</option>
-                                        </select>
+                                           </select>
                                     </div>
                                 </div>
+                                <div id="txtHintOp"><b></b></div>
                             </div>
                         </fieldset>
                         <!--Ici on mettra tout ce qui est necessaire pour inscrire un utilisateur-->

@@ -39,7 +39,7 @@ session_start();
 
 					<li class="active"><a href="index.php">Accueil</a></li><?php if(!isset($_SESSION['login'])){?>
 					<li><a href="offreformation.php">Offres de formation</a></li>
-                    <li class="active"><a href="inscription.php">Pré-inscrire</a></li>
+                    <li><a href="inscription.php">Pré-inscrire</a></li>
                     <li><a href="connectre.php">Se Connecter</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <?php } 
