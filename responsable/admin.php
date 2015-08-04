@@ -1,3 +1,14 @@
+<?php  
+session_start();
+
+include "../ManageurDB.php";
+
+$man = new ManageurDB();
+
+if(!isset($_SESSION['login'])){
+    header('Location:index.html');
+}
+?>
 <!DOCTYPE html>
 <html class="no-js">
 
@@ -9,6 +20,7 @@
         <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
         <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
         <link href="assets/styles.css" rel="stylesheet" media="screen">
+
         <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png">
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -29,7 +41,7 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right">
                             <li class="dropdown">
-                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Mouhamed Gueye <i class="caret"></i>
+                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> <?php  echo $_SESSION['cone']['prenom']." ".$_SESSION['cone']['nom']?> <i class="caret"></i>
 
                                 </a>
                                 <ul class="dropdown-menu">
@@ -111,12 +123,17 @@
                 <div class="span3" id="sidebar">
                     <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
                         <li class="active">
-                            <a href="admin.html"><i class="icon-chevron-right"></i> Gestion des résponsables</a>
+                            <a href="admin.php"><i class="icon-chevron-right"></i> Tableau de bord</a>
                         </li>
                         <li >
-                            <a href="responsables.html"><i class="icon-chevron-right"></i>Liste des résponsable</a>
+                            <a href="candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
                         </li>
-
+                        <li>
+                            <a href="calendar.html"><i class="icon-chevron-right"></i> Calendrie</a>
+                        </li>
+                        <li>
+                            <a href="stats.html"><i class="icon-chevron-right"></i> Statistique</a>
+                        </li>
                         <!--<li>
                             <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>
                         </li>-->
@@ -208,6 +225,35 @@
                             </div>
                         </div>
                         <!-- /block -->
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <!-- block -->
+                            <div class="block">
+                                <div class="navbar navbar-inner block-header">
+                                    <div class="muted pull-left">Nouveaux</div>
+                                    <div class="pull-right"><span class="badge badge-info">5</span>
+
+                                    </div>
+                                </div>
+                                <div class="block-content collapse in">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- /block -->
+                        </div>
                     </div>
 
                 </div>

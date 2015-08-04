@@ -133,7 +133,7 @@
 	//Fonction d'ajout de diplome 
 	public function ajoutDiplome($intitule, $annee, $etablissement, $commentaires, $lien, $candidat){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("INSERT iNTO pre_diplome VALUES (?, ?, ?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $intitule, $annee, $etablissement, $commentaires, $lien, $candidat));
@@ -144,7 +144,7 @@
 	//Fonction d'ajout départment
 	public function ajoutDepartement($nom, $specialite){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_departement VALUES (?, ?, ?)");
 		$req->execute(array($ge, $nom, $specialite));
@@ -156,7 +156,7 @@
 	//Fonction d'ajout d'un dossier de candidature
 	public function ajoutDossier($candidat, $statut){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_dossiercandidature(idDossierCandidature, statut, Candidat_idCandidat) VALUES (?, ?, ?)");
 		$req->execute(array($ge, $statut, $candidat));
@@ -167,7 +167,7 @@
 	//Fonction d'ajout d'une formation
 	public function ajoutFormation($intitule, $nbAnneeEtude, $descriptif, $dateOuverture, $dateFermeture, $prixEnCharge, $departement){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_formation VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $intitule, $nbAnneeEtude, $descriptif, $dateOuverture, $dateFermeture, $prixEnCharge, $departement));
@@ -179,7 +179,7 @@
 	//Fonction d'ajout d'une liste
 	public function ajoutListe($intitule, $nbCandidats, $type, $formation){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_liste VALUES (?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $intitule, $nbCandidats, $type, $formation));
@@ -191,7 +191,7 @@
 	//Fonction d'ajout d'un quitus
 	public function ajoutQuitus($montant, $dateQuitus){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_quitus VALUES (?, ?, ?)");
 		$req->execute(array($ge, $montant, $dateQuitus));
@@ -203,7 +203,7 @@
 	//Fonction mise à jour dossier de candidature pour quitus
 	public function majDossierQuitus($dossier, $quitus){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET Quitus_idQuitus=? WHERE idDossierCandidature=?");
 		$req->execute(array($quitus, $dossier));
@@ -215,7 +215,7 @@
 	//fonction de mise à jour dossier de candidature pour liste
 	public function majDossierListe($dossier, $liste){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET Liste_idListe=? WHERE idDossierCandidature=?");
 		$req->execute(array($liste, $dossier));
@@ -228,24 +228,38 @@
 	public function recupListeDossier(){
 
 		$sta = "cours";
-		$req1 = $this->getPDO()->prepare("SELECT * FROM pre_dossiercandidature, pre_candidat WHERE statut=?");
+		$req1 = $this->getPDO()->prepare("SELECT * FROM pre_candidat as c, pre_dossiercandidature as d, pre_filiere as f, pre_departement as p, pre_formation as o WHERE statut=? AND c.idCandidat=d.Candidat_idCandidat AND d.filiere=f.id_Filiere AND f.departement=p.idDepartement AND p.idDepartement=o.Departement_idDepartement");
 		$req1->execute(array($sta));
 		
 		if(!$req1){
 			
-			echo "ksdjfkk";
+			return false;
 		}
 		else{
-			$r = $req1->fetch();
-			print_r($r);
+			return $req1;
 		}
 		
+	}
+
+	//ajout utilisateur
+	public function addUser($candidat){
+
+		$ge = rand(100000, 99999999);
+		$req1 = $this->getPDO()->prepare("SELECT * FROM pre_candidat WHERE idCandidat=?");
+		$req1->execute(array($candidat));
+
+		$r = $req1->fetch();
+
+		$req2 = $this->getPDO()->prepare("INSERT INTO pre_user VALUES (?, ?, ?, ?)");
+		$req2->execute(array($ge, $r['mail'], $r['telephone'], $candidat));
+
+		return $req2;
 	}
 
 	//Fonction de mise à jour dossier de candidature pour statut
 	public function majDossierStatut($dossier, $statut){
 
-		$ge = rand(100000, 99999999);;
+		$ge = rand(100000, 99999999);
 
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET statut=? WHERE idDossierCandidature=?");
 		$req->execute(array($statut, $dossier));
@@ -339,6 +353,34 @@
 		// Send the message
 		$numSent = $mailer->send($message);
 		return $numSent;
+	}
+
+	public function connectAdmin($login, $password){
+
+		$req = $this->getPDO()->prepare("SELECT * FROM pre_administrateur WHERE login=? AND password=?");
+		$req->execute(array($login, $password));
+
+		if(!$req){
+			return false;
+		}
+		else{
+			$r = $req->fetch();
+			return $r;
+		}
+	}
+
+	public function connectResponsable($login, $password){
+
+		$req = $this->getPDO()->prepare("SELECT * FROM pre_responsable WHERE login=? AND password=?");
+		$req->execute(array($login, $password));
+
+		if(!$req){
+			return false;
+		}
+		else{
+			$r = $req->fetch();
+			return $r;
+		}
 	}
 }
 ?>

@@ -116,7 +116,7 @@ $man = new ManageurDB();
             $cone = $man->connectFunction($login, $password);
 
             if($cone==false){
-                Header('Location:connectre.html');
+                Header('Location:connectre.php');
             }
             else{
                 session_start();

@@ -86,15 +86,7 @@ if(isset($_SESSION['login'])){
         <div class="col-md-12">
             <section id="mondossier" class="page-section section appear clearfix">
                 <br />
-                <br />
                 <p class="alert-info" align="center" id="annonce">
-                    <hr width="100%">
-                    Cette page est en conctruction
-                    <?php
-                        echo $candidat['prenom']." ".$candidat['nom']." ".$candidat['nationalite'];
-                    ?>
-                    </br>
-
                 </p>
             </section>
         </div>
@@ -129,9 +121,7 @@ if(isset($_SESSION['login'])){
                                     <tr class="gradeA">
                                         <td>Nationalite</td><td> :</td><td> <?php  echo $candidat['nationalite'];?></td>
                                      </tr>
-                                    <tr class="gradeA">
-                                        <td class="center"><form action="desister.php" method="post"><input type="submit" class="btn-danger" value="désister"></form></td>
-                                    </tr>
+                                    
                                     </tbody>
                                 </table>
                                 </fieldset>
@@ -178,6 +168,8 @@ if(isset($_SESSION['login'])){
                             </div>
                         </div>
                     </div>
+                   <a href="deister.php" type="submit" class="btn-danger" value="désister" onclick="" />
+                    
                     <!-- /block -->
                 </div>
             </div>

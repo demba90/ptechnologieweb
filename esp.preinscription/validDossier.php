@@ -11,6 +11,7 @@ if(isset($_GET['cle'])){
 	$etat = "valide";
 
 	//Ajout de l'utilisateur
+	$c = $man->addUser($can);
 
 	$ds = $man->majDossierStatut($dossier, $etat);
 	session_start();
