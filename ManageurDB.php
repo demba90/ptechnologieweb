@@ -1,6 +1,6 @@
 <?php 
 
-	include "lib/swift_required.php";
+	//include "lib/swift_required.php";
 	// Début de définition de la classe ManageurDB_Pret
 	class ManageurDB {
 	/**

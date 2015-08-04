@@ -1,6 +1,6 @@
 <?php 
 
-include '../../../ManageurDB.php';
+include '../../ManageurDB.php';
 
 $man = new ManageurDB();
 
