@@ -1,6 +1,7 @@
 <?php 
 
 	//include "lib/swift_required.php";
+	include "C:\wamp\www\Technologie_Web\preinscript_demat\ptechnologieweb\swiftmailer/lib/swift_required.php";
 	// Début de définition de la classe ManageurDB_Pret
 	class ManageurDB {
 	/**
@@ -76,7 +77,7 @@
 	//Fonction ajoutCandidat
 	public function ajoutCandidat($prenom, $nom, $dateNaissance, $lieuNaissance, $sexe, $nationalite, $adresse, $mail, $telephone, $niveauEtude){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);
 		$req = $this->getPDO()->prepare("INSERT INTO pre_candidat VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $prenom, $nom, $dateNaissance, $lieuNaissance, $sexe, $nationalite, $adresse, $mail, $telephone, $niveauEtude));
 
@@ -120,7 +121,7 @@
 		$jour = date('d');
 		$mois = date('m');
 		$annee = date('y');
-		$heure = date('H');
+		$heure = rand(0, 20);
 		$min = date('i');
 		$sec = date('s');
 
@@ -132,7 +133,7 @@
 	//Fonction d'ajout de diplome 
 	public function ajoutDiplome($intitule, $annee, $etablissement, $commentaires, $lien, $candidat){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("INSERT iNTO pre_diplome VALUES (?, ?, ?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $intitule, $annee, $etablissement, $commentaires, $lien, $candidat));
@@ -143,7 +144,7 @@
 	//Fonction d'ajout départment
 	public function ajoutDepartement($nom, $specialite){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_departement VALUES (?, ?, ?)");
 		$req->execute(array($ge, $nom, $specialite));
@@ -155,18 +156,18 @@
 	//Fonction d'ajout d'un dossier de candidature
 	public function ajoutDossier($candidat, $statut){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
-		$req = $this->getPDO()->prepare("INSERT INTO pre_dossiercandidature VALUES (?, ?, ?)");
+		$req = $this->getPDO()->prepare("INSERT INTO pre_dossiercandidature(idDossierCandidature, statut, Candidat_idCandidat) VALUES (?, ?, ?)");
 		$req->execute(array($ge, $statut, $candidat));
 
-		return $req;
+		return $ge;
 	}
 
 	//Fonction d'ajout d'une formation
 	public function ajoutFormation($intitule, $nbAnneeEtude, $descriptif, $dateOuverture, $dateFermeture, $prixEnCharge, $departement){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_formation VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $intitule, $nbAnneeEtude, $descriptif, $dateOuverture, $dateFermeture, $prixEnCharge, $departement));
@@ -178,7 +179,7 @@
 	//Fonction d'ajout d'une liste
 	public function ajoutListe($intitule, $nbCandidats, $type, $formation){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_liste VALUES (?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $intitule, $nbCandidats, $type, $formation));
@@ -190,7 +191,7 @@
 	//Fonction d'ajout d'un quitus
 	public function ajoutQuitus($montant, $dateQuitus){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("INSERT INTO pre_quitus VALUES (?, ?, ?)");
 		$req->execute(array($ge, $montant, $dateQuitus));
@@ -202,7 +203,7 @@
 	//Fonction mise à jour dossier de candidature pour quitus
 	public function majDossierQuitus($dossier, $quitus){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET Quitus_idQuitus=? WHERE idDossierCandidature=?");
 		$req->execute(array($quitus, $dossier));
@@ -214,7 +215,7 @@
 	//fonction de mise à jour dossier de candidature pour liste
 	public function majDossierListe($dossier, $liste){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET Liste_idListe=? WHERE idDossierCandidature=?");
 		$req->execute(array($liste, $dossier));
@@ -244,7 +245,7 @@
 	//Fonction de mise à jour dossier de candidature pour statut
 	public function majDossierStatut($dossier, $statut){
 
-		$ge = $this->genId();
+		$ge = rand(100000, 99999999);;
 
 		$req = $this->getPDO()->prepare("UPDATE pre_dossiercandidature SET statut=? WHERE idDossierCandidature=?");
 		$req->execute(array($statut, $dossier));
@@ -288,14 +289,14 @@
 	//Fonction d'envoi de mail
 	public function notification($mailinscrip,$mdpinscrip,$matri, $user_cle){
 
-		require_once('./esp.preinscription/swiftmailer/lib/swift_required.php');
+		
 
 		$to =$mailinscrip;
 		$sujet = 'Confirmation inscription';
 		$msg ='
 		<html><body>Bonjour, <br> Confirmation de vos informations personnelles.<br>
 		<b>Login</b>: '.$mailinscrip.'<br><b> Mot de passe</b>: '.$mdpinscrip.'<br> <b>Votre N0 de candidature</b>: '.$matri.' <br><br>
-		Pour terminer l\'activation de votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/activ.php?cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
+		Pour terminer l\'activation de votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/validDossier.php?cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
 		</body></html>';
 
 		$msg = htmlentities($msg,ENT_NOQUOTES,'UTF-8',false);
@@ -319,8 +320,8 @@
 		->setHost('smtp.gmail.com')
 		->setPort(587) //465 
 		->setEncryption('tls')
-		->setUsername('gueyemouhamed.gueye@gmail.com')
-		->setPassword('Famathiam1991')
+		->setUsername('projettechweb@gmail.com')
+		->setPassword('technologie')
 		;
 
 		// Create the Mailer using your created Transport
@@ -329,7 +330,7 @@
 		// Create a message
 		$message = Swift_Message::newInstance()
 		->setSubject($sujet)
-		->setFrom(array('gueyemouhamed.gueye@gmail.com'=>'ESP'))
+		->setFrom(array('projettechweb@gmail.com'=>'ESP'))
 		->setTo($to)
 		->setBody($body, 'text/html', 'utf-8')
 		;

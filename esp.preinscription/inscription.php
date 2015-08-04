@@ -261,7 +261,7 @@
                         <!--Ici on mettra tout ce qui est necessaire pour inscrire un utilisateur-->
                         <div class="form-group">
                             <label>Motivation</label>
-                            <textarea class="form-control" id="message" placeholder="Pourquoi le choix de l'ESP ?" style="height:100px;"></textarea>
+                            <textarea class="form-control" name="mess" id="message" placeholder="Pourquoi le choix de l'ESP ?" style="height:100px;"></textarea>
                         </div>
 
                         <div  style="margin-top: 10px;" id="contact_form" class="col-md-5">

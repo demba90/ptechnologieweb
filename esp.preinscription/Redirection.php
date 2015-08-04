@@ -1,3 +1,4 @@
+<?php  session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,10 +64,22 @@ $man = new ManageurDB();
             }
 
 
-            $dept = $_POST['']
+            $dept = $_POST['departement'];
+
+            //$motiv = $_POST['mess'];
+
+            //Ajout du candidat 
+            $can = $man->ajoutCandidat($prenom, $nom, $dateNaiss, $lieuNaiss, $sexe, $nationalite, $adresse, $mail, $telephone, $niveau);
+
+            //Ajout du dossier avec etat atente
+            $etat = "attente";
+            $dossier = $man->ajoutDossier($can, $etat);
+
+            //Ajout des diplomes du candidat
+
 
             //Lancement du mail de validation
-
+            $m = $man->notification($mail,$telephone,$can, $dossier);
             
         }
             
