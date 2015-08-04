@@ -53,52 +53,124 @@
 
     $filiere = $_GET["filiere"];
     if($filiere == "gm") {
-        echo "Joindre les fichiers nécessaires :";
-        echo '
-            <form action="offres/offre2016dgm.php" method="post" enctype="multipart/form-data">';
-                for ($i = 0; $i < 2; $i++) {
-                    if ($i == 0) {
-                        echo 'Attestation ';
-                        echo ' <input type="file" name="fileToUpload" id="fileToUpload" maxlength="5M" >';
-                    } elseif ($i == 1) {
-                        echo '<input type="submit" value="Upload Image" name="submit">';
-                        echo 'photo';
-                    }
-                }
-        echo '</form>';
-            }
-        if($filiere == "g") {
-            echo "Joindre les fichiers nécessaires :";
-            echo '
-                    <form action="offres/offre2016dgm.php" method="post" enctype="multipart/form-data">';
-            for ($i = 0; $i < 2; $i++) {
-                if ($i == 0) {
-                    echo 'Attestation ';
-                    echo ' <input type="file" name="fileToUpload" id="fileToUpload" maxlength="5M" >';
-                } elseif ($i == 1) {
-                    echo '<input type="submit" value="Upload Image" name="submit">';
-                    echo 'photo';
-                }
-            }
-            echo '</form>';
-        }
-    if($filiere == "gi"){
         echo '
              <div class="row" >
-                <div class="col-md-2" >
-                    <p><input type="button" name="dut1" class="btn-primary" value="DUT1" onclick="showOption(this.name)"></p>
+                <div class="col-md-7" >
+                   <div class="form-group" >
+                        <label for="niveauetude"> Filières:</label>
+                        <select name="departement"  class="form-control" onchange="showOption(this.value)">
+                            <!-- ces valeurs doivent etre lu dépuis la base de données-->
+                            <option value="">Selectionne une filière:</option>
+                            <option value="dut">DUT</option>
+                            <option value="dic">DIC</option>
+                           </select>
+                    </div>
                 </div>
 
-                <div class="col-md-2">
-                    <p><input type="button" name="dic1" class="btn-primary" value="DIC1" onclick="showOption(this.value)"></p>
-                </div>
-
-                 <div id="txtHintFile">
+                 <div class="col-md-6" id="txtHintFile">
                     <b><p>
-                    on change
+
                     </p></b>
                 </div>
             </div>
 
         ';
+            }
+        if($filiere == "g") {
+            echo '
+             <div class="row" >
+                <div class="col-md-7" >
+                   <div class="form-group" >
+                        <label for="niveauetude"> Filières:</label>
+                        <select name="departement"  class="form-control" onchange="showOption(this.value)">
+                            <!-- ces valeurs doivent etre lu dépuis la base de données-->
+                            <option value="">Selectionne une filière:</option>
+                            <option value="dut">DUT</option>
+                            <option value="descaf">DESCAF</option>
+                           </select>
+                    </div>
+                </div>
+
+                 <div class="col-md-6" id="txtHintFile">
+                    <b><p>
+
+                    </p></b>
+                </div>
+            </div>
+
+        ';
+        }
+    if($filiere == "gi"){
+        echo '
+             <div class="row" >
+                <div class="col-md-7" >
+                   <div class="form-group" >
+                        <label for="niveauetude"> Filières:</label>
+                        <select name="departement"  class="form-control" onchange="showOption(this.value)">
+                            <!-- ces valeurs doivent etre lu dépuis la base de données-->
+                            <option value="">Selectionne une filière:</option>
+                            <option value="dut">DUT</option>
+                            <option value="dst">DST</option>
+                            <option value="dic">DIC</option>
+                           </select>
+                    </div>
+                </div>
+
+                 <div class="col-md-6" id="txtHintFile">
+                    <b><p>
+
+                    </p></b>
+                </div>
+            </div>
+
+        ';
+    }
+    if($filiere == "ge"){
+        echo '
+                 <div class="row" >
+                    <div class="col-md-7" >
+                       <div class="form-group" >
+                            <label for="niveauetude"> Filières:</label>
+                            <select name="departement"  class="form-control" onchange="showOption(this.value)">
+                                <!-- ces valeurs doivent etre lu dépuis la base de données-->
+                                <option value="">Selectionne une filière:</option>
+                                <option value="dut">DUT</option>
+                                <option value="dic">DIC</option>
+                               </select>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6" id="txtHintFile">
+                        <b><p>
+
+                        </p></b>
+                    </div>
+                </div>
+
+            ';
+    }
+    if($filiere == "gc"){
+        echo '
+                 <div class="row" >
+                    <div class="col-md-7" >
+                       <div class="form-group" >
+                            <label for="niveauetude"> Filières:</label>
+                            <select name="departement"  class="form-control" onchange="showOption(this.value)">
+                                <!-- ces valeurs doivent etre lu dépuis la base de données-->
+                                <option value="">Selectionne une filière:</option>
+                                <option value="dut">DUT</option>
+                                <option value="dst">DST</option>
+                                <option value="dic">DIC</option>
+                               </select>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6" id="txtHintFile">
+                        <b><p>
+
+                        </p></b>
+                    </div>
+                </div>
+
+            ';
     }

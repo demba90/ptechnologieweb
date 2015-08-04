@@ -22,9 +22,24 @@
     <script src = "assets/js/getcustomer.asp"></script>
 </head>
 <?php
-    echo "Welcome";
     $formation = $_GET["option"];
-    if($formation == "DIC1"){
+if($formation == "dst"){
+    echo '
+            <form action="offres/offre2016dgm.php" method="post" enctype="multipart/form-data">';
+    echo 'Attestation de réussite L2';
+    echo ' <input type="file" name="fileToUpload" id="fileToUpload" maxlength="5M" >';
+    for ($i = 0; $i < 2; $i++) {
+        if ($i == 0) {
+            echo 'Photocopie CNI';
+            echo ' <input type="file" name="fileToUpload" id="fileToUpload" maxlength="5M" >';
+        } elseif ($i == 1) {
+            echo '<input type="submit" value="Upload Image" name="submit">';
+            echo 'photo';
+        }
+    }
+    echo '</form>';
+}
+    if($formation == "dic"){
         echo '
             <form action="offres/offre2016dgm.php" method="post" enctype="multipart/form-data">';
                 echo 'Attestation de réussite L2';
@@ -40,7 +55,7 @@
                 }
         echo '</form>';
     }
-    if($formation == "DUT1"){
+    if($formation == "dut"){
         echo '
                 <form action="offres/offre2016dgm.php" method="post" enctype="multipart/form-data">';
         echo 'Attestation de réussite bac ';
