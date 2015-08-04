@@ -232,7 +232,7 @@
                                            </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6" id="txtHintOp">
+                                <div class="col-md-4" id="txtHintOp">
                                     <div id="ajaxfilier">
                                         <b><p></p></b>
                                     </div>

@@ -87,15 +87,13 @@
              <div class="row" >
                 <div class="col-md-2" >
                     <p><input type="button" name="dut1" class="btn-primary" value="DUT1" onclick="showOption(this.name)"></p>
-                    <p><input type="button" name="dut2" class="btn-primary" value="DUT2" onclick="showOption(this.name)"></p>
                 </div>
 
                 <div class="col-md-2">
                     <p><input type="button" name="dic1" class="btn-primary" value="DIC1" onclick="showOption(this.value)"></p>
-                    <p><input type="button" name="dic2" class="btn-primary" value="DIC2" onclick="showOption(this.value)"></p>
                 </div>
 
-                 <div class="col-md-7" id="txtHintFile">
+                 <div id="txtHintFile">
                     <b><p>
                     on change
                     </p></b>
