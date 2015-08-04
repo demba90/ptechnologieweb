@@ -155,7 +155,7 @@
                                 <div class="col-md-4">
                                     <div class="form-group" id="lieunais">
                                         <label for="lieunais">Sexe :</label>
-                                        <select name="nationnalite"  class="form-control">
+                                        <select name="sexe"  class="form-control">
                                             <option value="sénégal">M</option>
                                             <option value="guinné conakry">F</option>
                                         </select>

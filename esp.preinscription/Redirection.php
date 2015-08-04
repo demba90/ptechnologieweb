@@ -47,6 +47,7 @@ $man = new ManageurDB();
             $nom = $_POST['nom'];
             $dateNaiss = $_POST['datenais'];
             $lieuNaiss = $_POST['lieunais'];
+            $sexe = $_POST['sexe'];
             $nationalite = $_POST['nationnalite'];
 
             $adresse = $_POST['adresse'];
