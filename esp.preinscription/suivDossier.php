@@ -53,7 +53,6 @@ if(isset($_SESSION['login'])){
                 <li ><a href="suiviDossier.php">Suivi de Mon Dossier</a></li>
                     <li class="active"><a href="Moncompte.php">Mon compte</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="quitus.php">Quitus</a></li>
                     <li color="red"><a href="deconnexion.php" color="red"><FONT COLOR=#ff0000 >Deconnexion</FONT></a></li>
             </ul>
         </div>
@@ -86,6 +85,7 @@ if(isset($_SESSION['login'])){
     <div class="row">
         <div class="col-md-12">
             <section id="mondossier" class="page-section section appear clearfix">
+                <br />
                 <p class="alert-info" align="center" id="annonce">
                 </p>
             </section>
@@ -167,10 +167,8 @@ if(isset($_SESSION['login'])){
                             </fieldset>
                             </div>
                         </div>
-                        <br>
-                        <h4><a href="deister.php" class="btn-danger">Desister</a></h4>
                     </div>
-                   
+                   <a href="deister.php" type="submit" class="btn-danger" value="désister" onclick="" />
                     
                     <!-- /block -->
                 </div>
@@ -186,6 +184,4 @@ if(isset($_SESSION['login'])){
 </html>
 <?php 
 }
-else
-    header('Location:index.php');
 ?>
