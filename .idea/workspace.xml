@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/gestoption.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/getfiliere.php" afterPath="$PROJECT_DIR$/esp.preinscription/getfiliere.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/index.php" afterPath="$PROJECT_DIR$/esp.preinscription/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/inscription.php" afterPath="$PROJECT_DIR$/esp.preinscription/inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" afterPath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
@@ -32,16 +31,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getfiliere.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getfiliere.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/getfiliere.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="85" max-vertical-offset="1190">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.79701495" vertical-offset="452" max-vertical-offset="1139">
+              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="e#1019#1100#0#PHP" expanded="true" />
-                <marker date="1438664205289" expanded="true" signature="1884:2380" placeholder="..." />
-                <marker date="1438664205289" expanded="true" signature="1884:2302" placeholder="..." />
-                <marker date="1438664205289" expanded="true" signature="2354:2378" placeholder="..." />
+                <marker date="1438678630021" expanded="true" signature="1845:1899" placeholder="..." />
+                <marker date="1438678630021" expanded="true" signature="1845:1899" placeholder="..." />
+                <marker date="1438678630021" expanded="true" signature="1949:2236" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -57,15 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inscription.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inscription.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/inscription.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.585997" vertical-offset="397" max-vertical-offset="5321">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="3604" max-vertical-offset="5542">
+              <caret line="234" column="32" selection-start-line="234" selection-start-column="32" selection-end-line="234" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#section#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#section#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15144" max-vertical-offset="15895">
+              <caret line="927" column="19" selection-start-line="927" selection-start-column="19" selection-end-line="927" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,13 +125,13 @@
         <option value="$PROJECT_DIR$/responsable/candidats.html" />
         <option value="$PROJECT_DIR$/admin/responsables.html" />
         <option value="$PROJECT_DIR$/esp.preinscription/Moncompte.php" />
-        <option value="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
         <option value="$PROJECT_DIR$/esp.preinscription/upload.php" />
         <option value="$PROJECT_DIR$/esp.preinscription/inscription.html" />
         <option value="$PROJECT_DIR$/esp.preinscription/index.php" />
-        <option value="$PROJECT_DIR$/esp.preinscription/getfiliere.php" />
         <option value="$PROJECT_DIR$/esp.preinscription/gestoption.php" />
         <option value="$PROJECT_DIR$/esp.preinscription/inscription.php" />
+        <option value="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/esp.preinscription/getfiliere.php" />
       </list>
     </option>
   </component>
@@ -205,7 +214,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="offres" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esp.preinscription" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,23 +595,23 @@
         <state vertical-scroll-proportion="-1.2678844" vertical-offset="1207" max-vertical-offset="5712">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_user..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT iNTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_dossiercandidature..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_formation..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_departement..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1438655424001" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_user..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT iNTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_dossiercandidature..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_formation..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_departement..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438676834402" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -597,14 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49117175" vertical-offset="2550" max-vertical-offset="3842">
           <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95021963" vertical-offset="15042" max-vertical-offset="15810">
-          <caret line="923" column="19" selection-start-line="923" selection-start-column="19" selection-end-line="923" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -633,26 +656,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/getfiliere.php">
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615" vertical-offset="85" max-vertical-offset="1190">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding>
-            <element signature="e#1019#1100#0#PHP" expanded="true" />
-            <marker date="1438664205289" expanded="true" signature="1884:2380" placeholder="..." />
-            <marker date="1438664205289" expanded="true" signature="1884:2302" placeholder="..." />
-            <marker date="1438664205289" expanded="true" signature="2354:2378" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="15144" max-vertical-offset="15895">
+          <caret line="927" column="19" selection-start-line="927" selection-start-column="19" selection-end-line="927" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esp.preinscription/inscription.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.585997" vertical-offset="397" max-vertical-offset="5321">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="3604" max-vertical-offset="5542">
+          <caret line="234" column="32" selection-start-line="234" selection-start-column="32" selection-end-line="234" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#section#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#section#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/getfiliere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79701495" vertical-offset="452" max-vertical-offset="1139">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="e#1019#1100#0#PHP" expanded="true" />
+            <marker date="1438678630021" expanded="true" signature="1845:1899" placeholder="..." />
+            <marker date="1438678630021" expanded="true" signature="1845:1899" placeholder="..." />
+            <marker date="1438678630021" expanded="true" signature="1949:2236" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -128,7 +128,7 @@
                                         <input type="text"  name="lieunais"  class="form-control" placeholder="Lieu de naissance" required>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-1">
                                     <div class="form-group" id="lieunais">
                                         <label for="lieunais">Sexe :</label>
                                         <select name="sexe"  class="form-control">
@@ -224,15 +224,19 @@
                                         <select name="departement"  class="form-control" onchange="showOptione(this.value)">
                                             <!-- ces valeurs doivent etre lu dépuis la base de données-->
                                             <option value="">Selectionne un département:</option>
-                                            <option value="baccaleaureat"> Génie Civil</option>
-                                            <option value="l1"> Génie Electricitté</option>
-                                            <option value="l2"> Génie Mécanique</option>
-                                            <option value="licence">Génie Informatique</option>
-                                            <option value="master 1">Géstion</option>
+                                            <option value="gc"> Génie Civil</option>
+                                            <option value="ge"> Génie Electricitté</option>
+                                            <option value="gm"> Génie Mécanique</option>
+                                            <option value="gi">Génie Informatique</option>
+                                            <option value="g">Géstion</option>
                                            </select>
                                     </div>
                                 </div>
-                                <div id="txtHintOp"><b></b></div>
+                                <div class="col-md-6" id="txtHintOp">
+                                    <div id="ajaxfilier">
+                                        <b><p></p></b>
+                                    </div>
+                                </div>
                             </div>
                         </fieldset>
                         <!--Ici on mettra tout ce qui est necessaire pour inscrire un utilisateur-->
