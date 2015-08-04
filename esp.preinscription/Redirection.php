@@ -42,10 +42,24 @@ $man = new ManageurDB();
     if(isset($_POST["preins"])){
         if(!empty($_POST['captcha']) && !empty($_POST['nom']))
     {
-        if($_POST['captcha'] == $_SESSION['captcha'])
-            echo 'Le captcha est bon, votre nom est '.$_POST['nom'];
-        else
+        if($_POST['captcha'] == $_SESSION['captcha']){
+
+            $prenom = $_POST['prenom'];
+            $nom = $_POST['nom'];
+            $dateNaiss = $_POST['datenais'];
+            $lieuNaiss = $_POST['lieunais'];
+            $nationalite = $_POST['nationnalite'];
+
+            $adresse = $_POST['adresse'];
+            $mail = $_POST['email'];
+            $telephone = $_POST['telephone'];
+
+            
+        }
+            
+        else{
             echo 'Le captcha n\'est pas bon.';
+        }
     }
     else
         echo 'Il faut remplir tous les champs.';
