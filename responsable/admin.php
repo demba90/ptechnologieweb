@@ -46,7 +46,7 @@ if(!isset($_SESSION['login'])){
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a tabindex="-1" href="#">Profile</a>
+                                        <a tabindex="-1" href="#">Responsable</a>
                                     </li>
                                     <li class="divider"></li>
                                     <li>

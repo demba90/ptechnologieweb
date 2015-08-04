@@ -31,16 +31,16 @@
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li class="dropdown">
-                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Ngagne Thiam <i class="caret"></i>
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> <?php  echo $_SESSION['cone']['prenom']." ".$_SESSION['cone']['nom']?> <i class="caret"></i>
 
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a tabindex="-1" href="#">Profile</a>
+                                <a tabindex="-1" href="#">Responsable</a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a tabindex="-1" href="login.html">Logout</a>
+                                <a tabindex="-1" href="index.html">Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -167,127 +167,23 @@
                 <!-- block -->
                 <div class="block">
                     <div class="navbar navbar-inner block-header">
-                        <div class="muted pull-left">Morris.js stacked</div>
+                        <div class="muted pull-left">Statistique sexe</div>
                         <div class="pull-right"><span class="badge badge-warning">View More</span>
 
                         </div>
                     </div>
                     <div class="block-content collapse in">
                         <div class="span12">
-                            <div id="hero-area" style="height: 250px;"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /block -->
-            </div>
-
-            <!-- morris graph chart -->
-            <div class="row-fluid section">
-                <!-- block -->
-                <div class="block">
-                    <div class="navbar navbar-inner block-header">
-                        <div class="muted pull-left">Morris.js <small>Monthly growth</small></div>
-                        <div class="pull-right"><span class="badge badge-warning">View More</span>
-
-                        </div>
-                    </div>
-                    <div class="block-content collapse in">
-                        <div class="span12">
-                            <div id="hero-graph" style="height: 230px;"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /block -->
-            </div>
-
-            <!-- morris bar & donut charts -->
-            <div class="row-fluid section">
-                <!-- block -->
-                <div class="block">
-                    <div class="navbar navbar-inner block-header">
-                        <div class="muted pull-left">Morris.js</div>
-                        <div class="pull-right"><span class="badge badge-warning">View More</span>
-
-                        </div>
-                    </div>
-                    <div class="block-content collapse in">
-                        <div class="span6 chart">
-                            <h5>Devices sold</h5>
-                            <div id="hero-bar" style="height: 250px;"></div>
-                        </div>
-                        <div class="span5 chart">
-                            <h5>Month traffic</h5>
-                            <div id="hero-donut" style="height: 250px;"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /block -->
-            </div>
-
-            <div class="row-fluid">
-                <!-- block -->
-                <div class="block">
-                    <div class="navbar navbar-inner block-header">
-                        <div class="muted pull-left">Bar Chart</div>
-                        <div class="pull-right"><span class="badge badge-warning">View More</span>
-
-                        </div>
-                    </div>
-                    <div class="block-content collapse in">
-                        <div class="span12">
-                            <div id="catchart" style="width:100%;height:300px"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /block -->
-            </div>
-
-            <div class="row-fluid">
-                <div class="span6">
-                    <!-- block -->
-                    <div class="block">
-                        <div class="navbar navbar-inner block-header">
-                            <div class="muted pull-left">Pie Chart</div>
-                        </div>
-                        <div class="block-content collapse in">
-                            <div class="span12">
-                                <div id="piechart1" style="width:100%;height:200px"></div>
+                            <div id="donut-example">
+                                <?php
+                                    include("statistiques/sexe.php");
+                                ?>
                             </div>
                         </div>
                     </div>
-                    <!-- /block -->
-                </div>
-                <div class="span6">
-                    <!-- block -->
-                    <div class="block">
-                        <div class="navbar navbar-inner block-header">
-                            <div class="muted pull-left">Pie Chart</div>
-                        </div>
-                        <div class="block-content collapse in">
-                            <div class="span12">
-                                <div id="piechart2" style="width:100%;height:200px"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /block -->
-                </div>
-            </div>
-
-            <div class="row-fluid">
-                <!-- block -->
-                <div class="block">
-                    <div class="navbar navbar-inner block-header">
-                        <div class="muted pull-left">Multiple axes</div>
-                    </div>
-                    <div class="block-content collapse in">
-                        <div class="span12">
-                            <div id="timechart" style="width:100%;height:400px"></div>
-                        </div>
-                    </div>
                 </div>
                 <!-- /block -->
             </div>
-
         </div>
     </div>
     <hr>
@@ -322,7 +218,7 @@
  * Date: 04/08/2015
  * Time: 11:25
  */
-    include("statistique/sexe.php")
+    include("statistiques/sexe.php")
 ?>
 
 </html>

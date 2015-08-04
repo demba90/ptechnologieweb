@@ -1,7 +1,7 @@
 <?php 
 
 	//include "lib/swift_required.php";
-	include "C:\wamp\www\Technologie_Web\preinscript_demat\ptechnologieweb\swiftmailer/lib/swift_required.php";
+	include "../swiftmailer/lib/swift_required.php";
 	// Début de définition de la classe ManageurDB_Pret
 	class ManageurDB {
 	/**
