@@ -80,7 +80,7 @@
 		$req = $this->getPDO()->prepare("INSERT INTO pre_candidat VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 		$req->execute(array($ge, $prenom, $nom, $dateNaissance, $lieuNaissance, $sexe, $nationalite, $adresse, $mail, $telephone, $niveauEtude));
 
-		return $req;
+		return $ge;
 	}
 
 	//foction de connexion 
@@ -294,8 +294,8 @@
 		$sujet = 'Confirmation inscription';
 		$msg ='
 		<html><body>Bonjour, <br> Confirmation de vos informations personnelles.<br>
-		<b>Login</b>: '.$mailinscrip.'<br><b> Mot de passe</b>: '.$mdpinscrip.'<br> <b>Votre id Dossier</b>: '.$matri.' <br>
-		Pour activer votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/activ.php?cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
+		<b>Login</b>: '.$mailinscrip.'<br><b> Mot de passe</b>: '.$mdpinscrip.'<br> <b>Votre N0 de candidature</b>: '.$matri.' <br><br>
+		Pour terminer l\'activation de votre compte, <a href=\'http://localhost/Technologie_Web/preinscript_demat/ptechnologieweb/esp.preinscription/activ.php?cle='.$user_cle.'\'>cliquez ici!</a> <br><br> MERCI
 		</body></html>';
 
 		$msg = htmlentities($msg,ENT_NOQUOTES,'UTF-8',false);

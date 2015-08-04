@@ -205,7 +205,7 @@
                                 <div class="col-md-2">
                                     <div class="form-group" id="niveauetude">
                                         <label for="niveauetude"> Niveau Etude :</label>
-                                        <select name="nationnalite"  class="form-control" >
+                                        <select name="niveauEtude"  class="form-control" >
                                             <option value="baccaleaureat"> Baccaleauréat</option>
                                             <option value="l1"> L1</option>
                                             <option value="l2"> L2</option>
@@ -222,17 +222,17 @@
                                     <div class="form-group">
                                         <label> Diplômes obtenus :</label>
                                         <div class="col-md-0">
-                                            <input type="checkbox" name="baccaleaureat" value="baccaleaureat"/>
+                                            <input type="checkbox" name="diplomes[]" value="baccaleaureat"/>
                                             <label> Baccaleaureat</label></br>
-                                            <input type="checkbox" name="l1" value="l1"/>
+                                            <input type="checkbox" name="diplomes[]" value="l1"/>
                                             <label> L 1</label></br>
-                                            <input type="checkbox" name="l2" value="l2"/>
+                                            <input type="checkbox" name="diplomes[]" value="l2"/>
                                             <label> L 2</label></br>
-                                            <input type="checkbox" name="licence" value="licence"/>
+                                            <input type="checkbox" name="diplomes[]" value="licence"/>
                                             <label> Licence</label></br>
-                                            <input type="checkbox" name="master1" value="master 1"/>
+                                            <input type="checkbox" name="diplomes[]" value="master 1"/>
                                             <label> Master 1</label></br>
-                                            <input type="checkbox" name="master2" value="master 2"/>
+                                            <input type="checkbox" name="diplomes[]" value="master 2"/>
                                             <label> Master 2</label></br>
                                         </div>
                                     </div>

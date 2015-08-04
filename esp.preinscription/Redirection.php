@@ -54,7 +54,18 @@ $man = new ManageurDB();
             $mail = $_POST['email'];
             $telephone = $_POST['telephone'];
 
-            $message = 
+            $niveau = $_POST['niveauEtude'];
+            //diplomes obtenus
+            $i = 0;
+            foreach ($_POST['diplomes'] as $dipl) {
+                $d[$i] = $dipl;
+                $i++;
+            }
+
+
+            $dept = $_POST['']
+
+            //Lancement du mail de validation
 
             
         }
