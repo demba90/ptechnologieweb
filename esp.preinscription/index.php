@@ -41,12 +41,12 @@ session_start();
 					<li><a href="offreformation.php">Offres de formation</a></li>
                     <li class="active"><a href="inscription.php">Pré-inscrire</a></li>
                     <li><a href="connectre.php">Se Connecter</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <?php } 
                     else{?>
                     <li class="active"><a href="suiviDossier.php">Suivi de Mon Dossier</a></li>
                     <li><a href="Moncompte.php">Mon compte</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <li color="red"><a href="deconnexion.php" color="red"><FONT COLOR=#ff0000 >Deconnexion</FONT></a></li>
                     <?php } ?>
 					
@@ -180,7 +180,7 @@ session_start();
                                <a href="offreformation.php">Offres de formation</a> |
                                 <a href="inscription.php">Pré-inscrire</a> |
                                 <a href="connectre.php">Se Connecter</a> |
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </p>
                         </div>
                     </div>

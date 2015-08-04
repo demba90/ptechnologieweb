@@ -52,7 +52,7 @@ if(isset($_SESSION['login'])){
                 <li ><a href="index.php">Accueil</a></li>
                 <li ><a href="suiviDossier.php">Suivi de Mon Dossier</a></li>
                     <li class="active"><a href="Moncompte.php">Mon compte</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <li color="red"><a href="deconnexion.php" color="red"><FONT COLOR=#ff0000 >Deconnexion</FONT></a></li>
             </ul>
         </div>

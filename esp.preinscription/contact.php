@@ -27,18 +27,18 @@
         <div class="navbar-header">
             <!-- Button for smallest screens -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right mainNav">
 
-                <li class="active"><a href="index.html">Accueil</a></li>
+                <li class="active"><a href="index.php">Accueil</a></li>
                 <li><a href="offreformation.php">Offres de formation</a></li>
                 <!--<li><a href="#">Forum</a></li>
                 <li><a href="#">About</a></li>-->
-                <li><a href="inscription.html">Pré-inscrire</a></li>
-                <li><a href="connectre.html">Se Connecter</a></li>
+                <li><a href="inscription.php">Pré-inscrire</a></li>
+                <li><a href="connectre.php">Se Connecter</a></li>
                 <!--<li><a href="#">Contact</a></li>-->
             </ul>
         </div>
@@ -145,10 +145,10 @@
                     <div class="col-md-6 panel">
                         <div class="panel-body">
                             <p class="simplenav">
-                                <a href="index.html">Accueil</a> |
+                                <a href="index.php">Accueil</a> |
                                 <a href="offreformation.php">Offres de formation</a> |
-                                <a href="inscription.html">Pré-inscrire</a> |
-                                <a href="connectre.html">Se Connecter</a>
+                                <a href="inscription.php">Pré-inscrire</a> |
+                                <a href="connectre.php">Se Connecter</a>
                             </p>
                         </div>
                     </div>

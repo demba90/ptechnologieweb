@@ -43,14 +43,14 @@ $man = new ManageurDB();
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
                     <li ><a href="index.php">Accueil</a></li><?php if(!isset($_SESSION['login'])){?>
-                    <li class="active"><a href="inscription.html">Pré-inscrire</a></li>
-                    <li><a href="connectre.html">Se Connecter</a></li>
+                    <li class="active"><a href="inscription.php">Pré-inscrire</a></li>
+                    <li><a href="connectre.php">Se Connecter</a></li>
                     <?php } 
                     else{?>
                     <li class="active"><a href="suiviDossier.php">Suivi de Mon Dossier</a></li>
                     <li><a href="Moncompte.php">Mon compte</a></li>
                     <?php } ?>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -80,7 +80,7 @@ $man = new ManageurDB();
                         et de la recherche.La formation est assurée à l’Ecole supérieure polytechnique dans les départements. La liste
                         des départements qui offrent cette année un formation est la suivante :
                         <div class="list-group">
-                            <!--<li class="list-inline"><h3><a href="offres/offre2016dgi.html"> Département génie informatique</a></h3></li>-->
+                            <!--<li class="list-inline"><h3><a href="offres/offre2016dgi.php"> Département génie informatique</a></h3></li>-->
                             <li class="list-inline"><h3><a href="offres/offre2016dgm.php?dep=dgm"> Département génie mécanique</a></h3></li>
                         </div>
 					<br />
@@ -115,9 +115,9 @@ $man = new ManageurDB();
                         <div class="panel-body">
                             <p class="simplenav">
                                 <a href="index.php">Accueil</a> |
-                                <a href="inscription.html">Pré-inscrire</a> |
-                                <a href="connectre.html">Se Connecter</a> |
-                                <a href="contact.html">Contact</a>
+                                <a href="inscription.php">Pré-inscrire</a> |
+                                <a href="connectre.php">Se Connecter</a> |
+                                <a href="contact.php">Contact</a>
                             </p>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ if(isset($_GET['dep'])){
     }
 }
 else
-header('Location:../offreformation.html');
+header('Location:../offreformation.php');
 
 ?>
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ header('Location:../offreformation.html');
                 <li class="active" ><a href="../offreformation.php">Offres de formation</a></li>
                 <li ><a href="../inscription.php">Pré-inscrire</a></li>
                 <li><a href="../connectre.php">Se Connecter</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../contact.php">Contact</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -144,7 +144,7 @@ header('Location:../offreformation.html');
                             <a href="../offreformation.php">Offres de formation</a> |
                             <a href="../inscription.php">Pré-inscrire</a> |
                             <a href="../connectre.php">Se Connecter</a> |
-                            <a href="../contact.html">Contact</a>
+                            <a href="../contact.php">Contact</a>
                         </p>
                     </div>
                 </div>

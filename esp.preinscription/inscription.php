@@ -68,9 +68,9 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
                     <li ><a href="index.php">Accueil</a></li>
-                    <li><a href="offreformation.html">Offres de formation</a></li>
-                    <li><a href="connectre.html">Se Connecter</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="offreformation.php">Offres de formation</a></li>
+                    <li><a href="connectre.php">Se Connecter</a></li>
+                    <li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -275,9 +275,9 @@
                         <div class="panel-body">
                             <p class="simplenav">
                                 <a href="index.php">Accueil</a> |
-                                <a href="offreformation.html">Offres de formation</a> |
-                                <a href="connectre.html">Se Connecter</a> |
-                                <a href="contact.html">Contact</a>
+                                <a href="offreformation.php">Offres de formation</a> |
+                                <a href="connectre.php">Se Connecter</a> |
+                                <a href="contact.php">Contact</a>
                             </p>
                         </div>
                     </div>

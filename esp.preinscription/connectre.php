@@ -43,9 +43,9 @@ if(isset($_SESSION['login'])){
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
                     <li ><a href="index.php">Accueil</a></li>
-                    <li><a href="offreformation.html">Offres de formation</a></li>
-                    <li ><a href="inscription.html">Pré-inscrire</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="offreformation.php">Offres de formation</a></li>
+                    <li ><a href="inscription.php">Pré-inscrire</a></li>
+                    <li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -84,7 +84,7 @@ if(isset($_SESSION['login'])){
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-primary btn-lg btn-block" name="connexion">connexion</button>
-                                        <span class="pull-right"><a href="inscription.html">S'inscrire</a></span><span><a href="helpConnexion.html">Aide?</a></span>
+                                        <span class="pull-right"><a href="inscription.php">S'inscrire</a></span><span><a href="helpConnexion.php">Aide?</a></span>
                                     </div>
                                 </form>
                             </div>
