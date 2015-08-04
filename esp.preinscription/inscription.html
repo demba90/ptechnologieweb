@@ -20,37 +20,31 @@
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
-    <script src = "assets/js/getcustomer.asp"></script>
 	<![endif]-->
     <!--
         Script pour la gestion automatique des formations qui offrent
     -->
     <script>
-        function showCustomer(str)
-        {
-            var xmlhttp;
-            if (str=="")
-            {
-                document.getElementById("txtHint").innerHTML="";
+        function showFiliere(str) {
+            if (str == "") {
+                document.getElementById("txtHint").innerHTML = "";
                 return;
-            }
-            if (window.XMLHttpRequest)
-            {// code for IE7+, Firefox, Chrome, Opera, Safari
-                xmlhttp=new XMLHttpRequest();
-            }
-            else
-            {// code for IE6, IE5
-                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange=function()
-            {
-                if (xmlhttp.readyState==4 && xmlhttp.status==200)
-                {
-                    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+            } else {
+                if (window.XMLHttpRequest) {
+                    // code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp = new XMLHttpRequest();
+                } else {
+                    // code for IE6, IE5
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
                 }
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                        document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET","getfiliere.php?filiere="+str,true);
+                xmlhttp.send();
             }
-            xmlhttp.open("GET","getcustomer.asp?q="+str,true);
-            xmlhttp.send();
         }
     </script>
 </head>
@@ -216,16 +210,17 @@
                                 <div class="col-md-3">
                                     <div class="form-group" >
                                         <label for="niveauetude"> Département:</label>
-                                        <select name="departement"  class="form-control" onchange="showCustomer(this.value)">
+                                        <select name="departement"  class="form-control" onchange="showFiliere(this.value)">
                                             <!-- ces valeurs doivent etre lu dépuis la base de données-->
                                             <option value="">Selectionne un département:</option>
-                                            <option value="baccaleaureat"> Génie Civil</option>
-                                            <option value="l1"> Génie Electricitté</option>
-                                            <option value="l2"> Génie Mécanique</option>
-                                            <option value="licence">Génie Informatique</option>
-                                            <option value="master 1">Géstion</option>
+                                            <option value="gc"> Génie Civil</option>
+                                            <option value="ge"> Génie Electricitté</option>
+                                            <option value="gm"> Génie Mécanique</option>
+                                            <option value="gi">Génie Informatique</option>
+                                            <option value="g">Géstion</option>
                                         </select>
                                     </div>
+                                    <div id="txtHint"><b></b></div>
                                 </div>
                             </div>
                         </fieldset>

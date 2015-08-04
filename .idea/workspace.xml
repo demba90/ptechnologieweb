@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsable/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsable/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.html" afterPath="$PROJECT_DIR$/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/admin.html" afterPath="$PROJECT_DIR$/responsable/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/calendar.html" afterPath="$PROJECT_DIR$/responsable/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/candidats.html" afterPath="$PROJECT_DIR$/responsable/candidats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/responsables.html" afterPath="$PROJECT_DIR$/admin/responsables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/stats.html" afterPath="$PROJECT_DIR$/responsable/stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/Redirection.php" afterPath="$PROJECT_DIR$/esp.preinscription/Redirection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/connectre.html" afterPath="$PROJECT_DIR$/esp.preinscription/connectre.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/inscription.html" afterPath="$PROJECT_DIR$/esp.preinscription/inscription.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
@@ -38,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/responsables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49117175" vertical-offset="2907" max-vertical-offset="3910">
-              <caret line="189" column="111" selection-start-line="189" selection-start-column="111" selection-end-line="189" selection-end-column="111" />
+            <state vertical-scroll-proportion="-7.0833335" vertical-offset="2601" max-vertical-offset="3910">
+              <caret line="178" column="18" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -103,28 +96,28 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responsable/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="4930">
-              <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
+            <state vertical-scroll-proportion="-29.423077" vertical-offset="3638" max-vertical-offset="4930">
+              <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="control.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/connexion/control.php">
+      <file leaf-file-name="Redirection.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/esp.preinscription/Redirection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.1880597" vertical-offset="792" max-vertical-offset="1581">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/admin.html">
+      <file leaf-file-name="Moncompte.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="340" max-vertical-offset="4046">
-              <caret line="31" column="146" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
+            <state vertical-scroll-proportion="-16.346153" vertical-offset="1173" max-vertical-offset="1904">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -133,8 +126,8 @@
       <file leaf-file-name="connectre.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1887">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="57" />
+            <state vertical-scroll-proportion="-12.846154" vertical-offset="941" max-vertical-offset="1887">
+              <caret line="75" column="140" selection-start-line="75" selection-start-column="140" selection-end-line="75" selection-end-column="140" />
               <folding />
             </state>
           </provider>
@@ -162,6 +155,8 @@
         <option value="$PROJECT_DIR$/responsable/calendar.html" />
         <option value="$PROJECT_DIR$/responsable/stats.html" />
         <option value="$PROJECT_DIR$/admin/responsables.html" />
+        <option value="$PROJECT_DIR$/esp.preinscription/connectre.html" />
+        <option value="$PROJECT_DIR$/esp.preinscription/Redirection.php" />
       </list>
     </option>
   </component>
@@ -215,20 +210,6 @@
               <option name="myItemId" value="ptechnologieweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptechnologieweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptechnologieweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -240,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="esp.preinscription" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,7 +433,7 @@
         <state vertical-scroll-proportion="0.33281973" vertical-offset="45854" max-vertical-offset="163234">
           <caret line="2710" column="10" selection-start-line="2710" selection-start-column="6" selection-end-line="2710" selection-end-column="10" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -470,7 +451,7 @@
         <state vertical-scroll-proportion="0.3323263" vertical-offset="511" max-vertical-offset="7055">
           <caret line="43" column="8" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="8" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -485,14 +466,6 @@
             <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1887">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,14 +488,6 @@
     <entry file="file://$PROJECT_DIR$/responsable/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="5814">
-          <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="4930">
           <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
           <folding />
         </state>
@@ -556,8 +521,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/responsables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49117175" vertical-offset="2907" max-vertical-offset="3910">
-          <caret line="189" column="111" selection-start-line="189" selection-start-column="111" selection-end-line="189" selection-end-column="111" />
+        <state vertical-scroll-proportion="-7.0833335" vertical-offset="2601" max-vertical-offset="3910">
+          <caret line="178" column="18" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.423077" vertical-offset="3638" max-vertical-offset="4930">
+          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="1173" max-vertical-offset="1904">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.846154" vertical-offset="941" max-vertical-offset="1887">
+          <caret line="75" column="140" selection-start-line="75" selection-start-column="140" selection-end-line="75" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/Redirection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1880597" vertical-offset="792" max-vertical-offset="1581">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding />
         </state>
       </provider>
