@@ -19,11 +19,10 @@ if(isset($_SESSION['login'])){
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+    <meta name="description" content="dématérialisation">
     <meta name="author" content="webThemez.com">
     <title>ESP | Pré-inscription </title>
     <link rel="icon" href="assets/images/favicon.png" sizes="16x16" type="image/png">
-    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- Custom styles for our template -->
@@ -67,11 +66,11 @@ if(isset($_SESSION['login'])){
             <div class="col-md-4">
                 <h1>Mon Dossier</h1>
             </div>
-            <div class="col-md-4" align="right" id="infousercon">
+            <div class="col-md-6" align="right" id="infousercon">
                 <?php
                     $cone  = $_SESSION['cone'];
                     $candidat = $man->getInfos($cone['id_candidat']);
-                    echo "<h3> ".$candidat['prenom']." ".$candidat['nom']." </h3>";
+                    echo "<h4> ".$candidat['prenom']." ".$candidat['nom']." </h4>";
                 ?>
             </div>
 
