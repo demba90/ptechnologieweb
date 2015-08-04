@@ -301,6 +301,20 @@
 		}
 	}
 
+	//public fonction pour verifier un quitus
+	public function verifQuitus($numero){
+
+		$req = $this->getPDO()->prepare("SELECT * FROM pre_quitus WHERE numero=?");
+		$req->execute(array($numero));
+
+		if(!$req){
+			return false;
+		}
+		else{
+			return $req;
+		}
+	}
+
 	//Fonction d'envoi de mail
 	public function notification($mailinscrip,$mdpinscrip,$matri, $user_cle){
 
