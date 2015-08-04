@@ -152,6 +152,15 @@
                                         <input type="text"  name="lieunais"  class="form-control" placeholder="Lieu de naissance" required>
                                     </div>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="form-group" id="lieunais">
+                                        <label for="lieunais">Sexe :</label>
+                                        <select name="nationnalite"  class="form-control">
+                                            <option value="sénégal">M</option>
+                                            <option value="guinné conakry">F</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-2">

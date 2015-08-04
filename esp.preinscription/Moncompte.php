@@ -110,29 +110,71 @@ if(isset($_SESSION['login'])){
                         </div>
                         <div class="block-content collapse in">
                             <div class="span12">
-                                <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="example2">
-
-                                    <thead>
-                                    <tr>
-                                        <th>Département</th>
-                                        <th>Etat</th>
-                                        <th>Accepter</th>
-                                        <th>date dépot</th>
-                                        <th>date de fin</th>
-                                        <th>Action</th>
-                                    </tr>
-                                    </thead>
+                            <fieldset>
+                            <legend> Informations d’état civil</legend>
+                                <table cellpadding="0" cellspacing="0" border="0" class="table table-striped " id="example2">
                                     <tbody>
                                     <tr class="gradeA">
-                                        <td>DGI</td>
-                                        <td>Confirmer</td>
-                                        <td>oui</td>
-                                        <td>16/Juin/2015</td>
-                                        <td>16/Septembre/2016</td>
-                                        <td class="center"><form action="" method="post"><input type="submit" class="btn-danger" value="désister"></form></td>
+                                        <td>Prenom</td><td> :</td><td> <?php  echo $candidat['prenom'];?></td>
+                                    </tr>
+                                    <tr class="gradeA">
+                                        <td>Nom</td><td> :</td><td> <?php  echo $candidat['nom'];?></td>
+                                     </tr>
+                                    <tr class="gradeA">
+                                        <td>Date de Naissance</td><td> :</td><td> <?php  echo $candidat['dateNaissance'];?></td>
+                                     </tr>
+                                    <tr class="gradeA">
+                                        <td>Lieu de Naissance</td><td> :</td><td> <?php  echo $candidat['lieuNaissance'];?></td>
+                                     </tr>
+                                    <tr class="gradeA">
+                                        <td>Nationalite</td><td> :</td><td> <?php  echo $candidat['nationalite'];?></td>
+                                     </tr>
+                                    <tr class="gradeA">
+                                        <td class="center"><form action="desister.php" method="post"><input type="submit" class="btn-danger" value="désister"></form></td>
                                     </tr>
                                     </tbody>
                                 </table>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="block-content collapse in">
+                            <div class="span12">
+                            <fieldset>
+                                <legend>Informations administratives</legend>
+                                <table cellpadding="0" cellspacing="0" border="0" class="table table-striped " id="example2">
+                                    <tbody>
+                                    <tr class="gradeA">
+                                        <td>Adresse</td><td> :</td><td> <?php  echo $candidat['adresse'];?></td>
+                                    </tr>
+                                    <tr class="gradeA">
+                                        <td>Mail</td><td> :</td><td> <?php  echo $candidat['mail'];?></td>
+                                     </tr>
+                                    <tr class="gradeA">
+                                        <td>Numéro de téléphone</td><td> :</td><td> <?php  echo $candidat['telephone'];?></td>
+                                     </tr>
+                                    </tbody>
+                                </table>
+                            </fieldset>
+                            </div>
+                        </div>
+                        <div class="block-content collapse in">
+                            <div class="span12">
+                            <fieldset>
+                                <legend>Informations académiques</legend>
+                                <table cellpadding="0" cellspacing="0" border="0" class="table table-striped " id="example2">
+                                    <tbody>
+                                    <tr class="gradeA">
+                                        <td>Niveau d'études</td><td> :</td><td> <?php  echo $candidat['niveauEtude'];?></td>
+                                    </tr>
+                                    <tr class="gradeA">
+                                        <td>Mail</td><td> :</td><td> <?php  echo $candidat['mail'];?></td>
+                                     </tr>
+                                    <tr class="gradeA">
+                                        <td>Numero de telephone</td><td> :</td><td> <?php  echo $candidat['telephone'];?></td>
+                                     </tr>
+                                    </tbody>
+                                </table>
+                            </fieldset>
                             </div>
                         </div>
                     </div>
