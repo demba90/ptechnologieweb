@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsable/logout.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\ptechnologieweb\responsable\ManageurDB.php" afterPath="$PROJECT_DIR$/responsable/statistiques/ManageurDB.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\ptechnologieweb\responsable\calendar.html" afterPath="$PROJECT_DIR$/responsable/calendar.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\ptechnologieweb\responsable\index.html" afterPath="$PROJECT_DIR$/responsable/index.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\ptechnologieweb\responsable\stats.html" afterPath="$PROJECT_DIR$/responsable/stats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/RedirAdmin.php" afterPath="$PROJECT_DIR$/admin/RedirAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/RedirResp.php" afterPath="$PROJECT_DIR$/responsable/RedirResp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/Redirection.php" afterPath="$PROJECT_DIR$/esp.preinscription/Redirection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.php" afterPath="$PROJECT_DIR$/admin/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/admin.php" afterPath="$PROJECT_DIR$/responsable/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/buttons.html" afterPath="$PROJECT_DIR$/responsable/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/candidats.php" afterPath="$PROJECT_DIR$/responsable/candidats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/editors.html" afterPath="$PROJECT_DIR$/responsable/editors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/form.html" afterPath="$PROJECT_DIR$/responsable/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/interface.html" afterPath="$PROJECT_DIR$/responsable/interface.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.html" afterPath="$PROJECT_DIR$/admin/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/assets/js/modernizr-latest.js" afterPath="$PROJECT_DIR$/esp.preinscription/assets/js/modernizr-latest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/quitus.php" afterPath="$PROJECT_DIR$/esp.preinscription/quitus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/sexe.php" afterPath="$PROJECT_DIR$/responsable/statistiques/sexe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statisque.php" afterPath="$PROJECT_DIR$/responsable/statisque.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/.idea/workspace.xml" afterPath="$PROJECT_DIR$/responsable/.idea/workspace.xml" />
     </list>
     <ignored path="ptechnologieweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +60,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="629">
-              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="646">
+              <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -91,8 +70,18 @@
       <file leaf-file-name="RedirAdmin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/RedirAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.619403" vertical-offset="78" max-vertical-offset="748">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.4671642" vertical-offset="78" max-vertical-offset="748">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="4199">
+              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="20" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -134,16 +123,6 @@
         <entry file="file://$PROJECT_DIR$/responsable/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -806,18 +785,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="4199">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="20" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="629">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="646">
+          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/RedirAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.619403" vertical-offset="78" max-vertical-offset="748">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.4671642" vertical-offset="78" max-vertical-offset="748">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding />
         </state>
       </provider>
