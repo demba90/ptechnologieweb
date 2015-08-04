@@ -64,15 +64,17 @@ if(isset($_SESSION['login'])){
 <header id="head" class="secondary">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-md-4">
                 <h1>Mon Dossier</h1>
             </div>
-            <?php
-                $cone  = $_SESSION['cone'];
-                $candidat = $man->getInfos($cone['id_candidat']);
+            <div class="col-md-4" align="right" id="infousercon">
+                <?php
+                    $cone  = $_SESSION['cone'];
+                    $candidat = $man->getInfos($cone['id_candidat']);
+                    echo "<h3> ".$candidat['prenom']." ".$candidat['nom']." </h3>";
+                ?>
+            </div>
 
-                echo "<h3> Bonjour ".$candidat['prenom']." ".$candidat['nom'].". </h3>";
-             ?>
         </div>
 
     </div>
@@ -88,16 +90,54 @@ if(isset($_SESSION['login'])){
                     <hr width="100%">
                     Cette page est en conctruction
                     <?php
-
-                        
-
                         echo $candidat['prenom']." ".$candidat['nom']." ".$candidat['nationalite'];
                     ?>
                     </br>
 
                 </p>
             </section>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span9" id="content">
+                <div class="row-fluid">
+                    <!-- block -->
+                    <div class="block">
+                        <div class="navbar navbar-inner block-header">
+                            <div class="muted pull-left"></div>
+                        </div>
+                        <div class="block-content collapse in">
+                            <div class="span12">
+                                <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="example2">
 
+                                    <thead>
+                                    <tr>
+                                        <th>Département</th>
+                                        <th>Etat</th>
+                                        <th>Accepter</th>
+                                        <th>date dépot</th>
+                                        <th>date de fin</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="gradeA">
+                                        <td>DGI</td>
+                                        <td>Confirmer</td>
+                                        <td>oui</td>
+                                        <td>16/Juin/2015</td>
+                                        <td>16/Septembre/2016</td>
+                                        <td class="center"><form action="" method="post"><input type="submit" class="btn-danger" value="désister"></form></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /block -->
+                </div>
+            </div>
         </div>
     </div>
 
@@ -105,6 +145,8 @@ if(isset($_SESSION['login'])){
 <!-- /container -->
 
 </body>
+<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/jquery-1.9.1.js"></script>
 </html>
 <?php 
 }

@@ -73,11 +73,11 @@
             <state vertical-scroll-proportion="0.619403" vertical-offset="78" max-vertical-offset="986">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
-                <marker date="1438653129345" expanded="true" signature="218:354" placeholder="..." />
-                <marker date="1438653129345" expanded="true" signature="248:354" placeholder="..." />
-                <marker date="1438653129345" expanded="true" signature="287:354" placeholder="..." />
-                <marker date="1438653129345" expanded="true" signature="332:354" placeholder="..." />
-                <marker date="1438653129345" expanded="true" signature="680:1153" placeholder="..." />
+                <marker date="1438655426629" expanded="true" signature="218:354" placeholder="..." />
+                <marker date="1438655426629" expanded="true" signature="248:354" placeholder="..." />
+                <marker date="1438655426629" expanded="true" signature="287:354" placeholder="..." />
+                <marker date="1438655426629" expanded="true" signature="332:354" placeholder="..." />
+                <marker date="1438655426629" expanded="true" signature="680:1153" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -116,10 +116,10 @@
       <file leaf-file-name="Redirection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Redirection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1581">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1581">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
-                <marker date="1438644833141" expanded="true" signature="3091:3096" placeholder="..." />
+                <marker date="1438656529503" expanded="true" signature="3110:3115" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -128,8 +128,8 @@
       <file leaf-file-name="Moncompte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Moncompte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1904">
-              <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2686">
+              <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -410,7 +410,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1190">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <marker date="1438644833141" expanded="true" signature="3091:3096" placeholder="..." />
+            <marker date="1438656529503" expanded="true" signature="3110:3115" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -697,18 +697,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Moncompte.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1904">
-          <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2006">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Redirection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1581">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1581">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
-            <marker date="1438644833141" expanded="true" signature="3091:3096" placeholder="..." />
+            <marker date="1438656529503" expanded="true" signature="3110:3115" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -796,11 +796,11 @@
         <state vertical-scroll-proportion="0.619403" vertical-offset="78" max-vertical-offset="986">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
-            <marker date="1438653129345" expanded="true" signature="218:354" placeholder="..." />
-            <marker date="1438653129345" expanded="true" signature="248:354" placeholder="..." />
-            <marker date="1438653129345" expanded="true" signature="287:354" placeholder="..." />
-            <marker date="1438653129345" expanded="true" signature="332:354" placeholder="..." />
-            <marker date="1438653129345" expanded="true" signature="680:1153" placeholder="..." />
+            <marker date="1438655426629" expanded="true" signature="218:354" placeholder="..." />
+            <marker date="1438655426629" expanded="true" signature="248:354" placeholder="..." />
+            <marker date="1438655426629" expanded="true" signature="287:354" placeholder="..." />
+            <marker date="1438655426629" expanded="true" signature="332:354" placeholder="..." />
+            <marker date="1438655426629" expanded="true" signature="680:1153" placeholder="..." />
           </folding>
         </state>
       </provider>

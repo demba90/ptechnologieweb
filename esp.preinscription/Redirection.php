@@ -35,9 +35,7 @@ session_start();
  * Si on essaye de se connecter, on passe par ici
  * on vérifie l'authenticité et décider de la redirection vers la page
  */
-if(isset($_POST["close"])){
-    header('Location: index.html');
-}
+
 $man = new ManageurDB();
 
 
@@ -52,6 +50,9 @@ $man = new ManageurDB();
     else
         echo 'Il faut remplir tous les champs.';
     }
+//    elseif(isset($_POST["close"])){
+//        header('Location: index.html');
+//    }
     elseif(isset($_POST["connexion"])){
             /*
              * On vérifie s'il est bien connu par la plateforme et si oui
@@ -71,7 +72,6 @@ $man = new ManageurDB();
             $cone = $man->connectFunction($login, $password);
 
             if($cone==false){
-
                 Header('Location:connectre.html');
             }
             else{

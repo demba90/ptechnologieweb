@@ -2,9 +2,407 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/-complex_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/-complex_header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/-iDraw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/-iDraw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/2440.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2512.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/2512.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2530-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2530.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2569.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/2569.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2600.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/2600.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2608.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2635.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2746-stable-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2799.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2840-restore-table-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/2914-state-save-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/39-nested-null.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/5396-fnUpdate-arrays-mData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/5396-fnUpdate-arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/5508-xscroll-zero-content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/6776-scrolling-table-grows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/6776.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/6872-default-content-missing-props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/8549--string-sorting-nonstrings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/DataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/_getDataFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/_setDataFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests/1_dom/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_arrays_subobjects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_deep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_mDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_null_source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_objects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_objects_subarrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bVisible2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/api/api.internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/api/api.methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/api/api.static.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bInfiniteScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bInfiniteScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bJQueryUI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bSortCellsTop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/complex_header_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.draw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.length.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.processing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.scrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.sizing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/core/core.support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/deferred_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/css/demo_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/css/demo_table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/css/demo_table_jui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/dom_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/dom_data_th.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/dom_data_two_headers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/performance/draw.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/dymanic_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/empty_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/ext/ext.classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/ext/ext.paging.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/ext/ext.sorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/ext/ext.types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnCookieCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnDeleteRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnFooterCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnFooterCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnInfoCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/fnServerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/fnServerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnServerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnSetColumnVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/fnSetColumnVis2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/html-autodetect-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/html_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/iDeferLoading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/js/jquery-1.9.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/js_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/js_data_mixed_types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/js_data_mixed_types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/performance/large.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.column.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.defaults.columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.row.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/src/model/model.settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sLoadingRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/performance/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/sAjaxDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/sAjaxDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/sAjaxDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/sAjaxDataProp2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/sAjaxDataProp2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/2_js/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/3_ajax/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/4_server-side/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/5_ajax_objects/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/6_delayed_rendering/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/sScrollXY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/performance/sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/tests_onhold/1_dom/th_in_body.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/templates/two_tables.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/esp.preinscription/assets/datatables/unit_testing/unit_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/Moncompte.php" afterPath="$PROJECT_DIR$/esp.preinscription/Moncompte.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/Redirection.php" afterPath="$PROJECT_DIR$/esp.preinscription/Redirection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/connectre.html" afterPath="$PROJECT_DIR$/esp.preinscription/connectre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/inscription.html" afterPath="$PROJECT_DIR$/esp.preinscription/inscription.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/candidats.html" afterPath="$PROJECT_DIR$/responsable/candidats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/responsables.html" afterPath="$PROJECT_DIR$/admin/responsables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" afterPath="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/esp.preinscription/.idea/workspace.xml" />
     </list>
@@ -31,53 +429,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="responsables.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/responsables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0833335" vertical-offset="2601" max-vertical-offset="3910">
-              <caret line="178" column="18" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="candidats.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="3570">
-              <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/calendar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="5814">
-              <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stats.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/stats.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="8755">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <marker date="1438643771681" expanded="true" signature="44941:45000" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.68218297" vertical-offset="2329" max-vertical-offset="3842">
+              <caret line="162" column="82" selection-start-line="162" selection-start-column="82" selection-end-line="162" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -93,22 +449,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/responsable/admin.html">
+      <file leaf-file-name="ManageurDB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageurDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.423077" vertical-offset="3638" max-vertical-offset="4930">
-              <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Redirection.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/esp.preinscription/Redirection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1880597" vertical-offset="792" max-vertical-offset="1581">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-              <folding />
+            <state vertical-scroll-proportion="32.03846" vertical-offset="1207" max-vertical-offset="5712">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <marker date="1438655424001" expanded="true" signature="1902:1967" placeholder="INSERT INTO ..." />
+                <marker date="1438655424001" expanded="true" signature="2245:2296" placeholder="SELECT * FRO..pre_user..." />
+                <marker date="1438655424001" expanded="true" signature="2561:2606" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438655424001" expanded="true" signature="3190:3242" placeholder="INSERT iNTO ..." />
+                <marker date="1438655424001" expanded="true" signature="3509:3553" placeholder="INSERT INTO ..." />
+                <marker date="1438655424001" expanded="true" signature="3786:3837" placeholder="INSERT INTO ..." />
+                <marker date="1438655424001" expanded="true" signature="4140:4197" placeholder="INSERT INTO ..." />
+                <marker date="1438655424001" expanded="true" signature="4517:4561" placeholder="INSERT INTO ..." />
+                <marker date="1438655424001" expanded="true" signature="4805:4844" placeholder="INSERT INTO ..." />
+                <marker date="1438655424001" expanded="true" signature="5095:5175" placeholder="UPDATE pre_d..." />
+                <marker date="1438655424001" expanded="true" signature="5417:5495" placeholder="UPDATE pre_d..." />
+                <marker date="1438655424001" expanded="true" signature="5697:5762" placeholder="SELECT * FRO..pre_dossiercandidature..." />
+                <marker date="1438655424001" expanded="true" signature="6077:6148" placeholder="UPDATE pre_d..." />
+                <marker date="1438655424001" expanded="true" signature="6368:6429" placeholder="SELECT * FRO..pre_formation..." />
+                <marker date="1438655424001" expanded="true" signature="6659:6707" placeholder="SELECT * FRO..pre_departement..." />
+                <marker date="1438655424001" expanded="true" signature="7440:7549" placeholder="..." />
+                <marker date="1438655424001" expanded="true" signature="7463:7549" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +480,18 @@
       <file leaf-file-name="Moncompte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="1173" max-vertical-offset="1904">
-              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state vertical-scroll-proportion="-80.84615" vertical-offset="193" max-vertical-offset="2686">
+              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15025" max-vertical-offset="15793">
+              <caret line="922" column="21" selection-start-line="922" selection-start-column="21" selection-end-line="922" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -126,8 +500,8 @@
       <file leaf-file-name="connectre.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.846154" vertical-offset="941" max-vertical-offset="1887">
-              <caret line="75" column="140" selection-start-line="75" selection-start-column="140" selection-end-line="75" selection-end-column="140" />
+            <state vertical-scroll-proportion="-10.884615" vertical-offset="907" max-vertical-offset="1887">
+              <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -148,15 +522,18 @@
         <option value="$PROJECT_DIR$/responsable/assets/styles.css" />
         <option value="$PROJECT_DIR$/responsable/assets/DT_bootstrap.js" />
         <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.js" />
-        <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js" />
         <option value="$PROJECT_DIR$/admin/admin.html" />
-        <option value="$PROJECT_DIR$/responsable/candidats.html" />
         <option value="$PROJECT_DIR$/responsable/admin.html" />
         <option value="$PROJECT_DIR$/responsable/calendar.html" />
         <option value="$PROJECT_DIR$/responsable/stats.html" />
-        <option value="$PROJECT_DIR$/admin/responsables.html" />
         <option value="$PROJECT_DIR$/esp.preinscription/connectre.html" />
         <option value="$PROJECT_DIR$/esp.preinscription/Redirection.php" />
+        <option value="$PROJECT_DIR$/esp.preinscription/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js" />
+        <option value="$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js" />
+        <option value="$PROJECT_DIR$/responsable/candidats.html" />
+        <option value="$PROJECT_DIR$/esp.preinscription/Moncompte.php" />
+        <option value="$PROJECT_DIR$/admin/responsables.html" />
       </list>
     </option>
   </component>
@@ -221,7 +598,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="esp.preinscription" />
+              <option name="myItemId" value="responsable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,10 +653,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\ptechnologieweb\esp.preinscription\assets\js" />
+      <recent name="C:\wamp\www\ptechnologieweb\esp.preinscription\assets" />
       <recent name="C:\wamp\www\ptechnologieweb\admin" />
       <recent name="C:\wamp\www\ptechnologieweb\responsable" />
       <recent name="C:\wamp\www\ptechnologieweb\responsable\images" />
-      <recent name="C:\wamp\www\ptechnologieweb\admin\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -428,16 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33281973" vertical-offset="45854" max-vertical-offset="163234">
-          <caret line="2710" column="10" selection-start-line="2710" selection-start-column="6" selection-end-line="2710" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/unit_testing/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7975831" vertical-offset="1021" max-vertical-offset="1683">
@@ -456,31 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5161787" vertical-offset="804" max-vertical-offset="2737">
-          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1438642594164" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="340" max-vertical-offset="4046">
           <caret line="31" column="146" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="3570">
-          <caret line="32" column="144" selection-start-line="32" selection-start-column="144" selection-end-line="32" selection-end-column="144" />
           <folding />
         </state>
       </provider>
@@ -498,7 +885,7 @@
         <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="8755">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <marker date="1438643771681" expanded="true" signature="44941:45000" placeholder="..." />
+            <marker date="1438643771681" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -511,6 +898,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/Redirection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="901" max-vertical-offset="1581">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageurDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="32.03846" vertical-offset="1207" max-vertical-offset="5712">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <marker date="1438655424001" expanded="true" signature="1902:1967" placeholder="INSERT INTO ..." />
+            <marker date="1438655424001" expanded="true" signature="2245:2296" placeholder="SELECT * FRO..pre_user..." />
+            <marker date="1438655424001" expanded="true" signature="2561:2606" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438655424001" expanded="true" signature="3190:3242" placeholder="INSERT iNTO ..." />
+            <marker date="1438655424001" expanded="true" signature="3509:3553" placeholder="INSERT INTO ..." />
+            <marker date="1438655424001" expanded="true" signature="3786:3837" placeholder="INSERT INTO ..." />
+            <marker date="1438655424001" expanded="true" signature="4140:4197" placeholder="INSERT INTO ..." />
+            <marker date="1438655424001" expanded="true" signature="4517:4561" placeholder="INSERT INTO ..." />
+            <marker date="1438655424001" expanded="true" signature="4805:4844" placeholder="INSERT INTO ..." />
+            <marker date="1438655424001" expanded="true" signature="5095:5175" placeholder="UPDATE pre_d..." />
+            <marker date="1438655424001" expanded="true" signature="5417:5495" placeholder="UPDATE pre_d..." />
+            <marker date="1438655424001" expanded="true" signature="5697:5762" placeholder="SELECT * FRO..pre_dossiercandidature..." />
+            <marker date="1438655424001" expanded="true" signature="6077:6148" placeholder="UPDATE pre_d..." />
+            <marker date="1438655424001" expanded="true" signature="6368:6429" placeholder="SELECT * FRO..pre_formation..." />
+            <marker date="1438655424001" expanded="true" signature="6659:6707" placeholder="SELECT * FRO..pre_departement..." />
+            <marker date="1438655424001" expanded="true" signature="7440:7549" placeholder="..." />
+            <marker date="1438655424001" expanded="true" signature="7463:7549" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15025" max-vertical-offset="15793">
+          <caret line="922" column="21" selection-start-line="922" selection-start-column="21" selection-end-line="922" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/datatables/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02489019" vertical-offset="0" max-vertical-offset="683">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.884615" vertical-offset="907" max-vertical-offset="1887">
+          <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.692542" vertical-offset="4029" max-vertical-offset="4930">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
@@ -519,42 +972,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/responsables.html">
+    <entry file="file://$PROJECT_DIR$/admin/vendors/datatables/js/jquery.dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0833335" vertical-offset="2601" max-vertical-offset="3910">
-          <caret line="178" column="18" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/css/jquery.dataTables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35800603" vertical-offset="1038" max-vertical-offset="3859">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/admin.html">
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/jquery-1.9.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.423077" vertical-offset="3638" max-vertical-offset="4930">
-          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.5285054" vertical-offset="162517" max-vertical-offset="163234">
+          <caret line="9580" column="34" selection-start-line="9580" selection-start-column="34" selection-end-line="9580" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/assets/js/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3235725" vertical-offset="221" max-vertical-offset="163030">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/candidats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37899545" vertical-offset="2607" max-vertical-offset="3434">
+          <caret line="168" column="38" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendors/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22401172" vertical-offset="0" max-vertical-offset="163234">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/vendors/datatables/js/jquery.dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95021963" vertical-offset="1986" max-vertical-offset="2737">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esp.preinscription/Moncompte.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="1173" max-vertical-offset="1904">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state vertical-scroll-proportion="-80.84615" vertical-offset="193" max-vertical-offset="2686">
+          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/connectre.html">
+    <entry file="file://$PROJECT_DIR$/admin/responsables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.846154" vertical-offset="941" max-vertical-offset="1887">
-          <caret line="75" column="140" selection-start-line="75" selection-start-column="140" selection-end-line="75" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/Redirection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1880597" vertical-offset="792" max-vertical-offset="1581">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.68218297" vertical-offset="2329" max-vertical-offset="3842">
+          <caret line="162" column="82" selection-start-line="162" selection-start-column="82" selection-end-line="162" selection-end-column="82" />
           <folding />
         </state>
       </provider>
