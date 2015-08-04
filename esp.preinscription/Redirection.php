@@ -22,7 +22,7 @@
 </head>
 </html>
 <?php
-include '../../ManageurDB.php';
+include '../ManageurDB.php';
 session_start();
 /**
  * Created by PhpStorm.

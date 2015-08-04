@@ -7,7 +7,7 @@
  */
 session_start();
 
-include '../../ManageurDB.php';
+include '../ManageurDB.php';
 
 $man = new ManageurDB();
 
@@ -51,7 +51,8 @@ if(isset($_SESSION['login'])){
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right mainNav">
                 <li ><a href="index.html">Accueil</a></li>
-                <li><a href="offreformation.html">Offres de formation</a></li>
+                <li ><a href="suiviDossier.php">Suivi de Mon Dossier</a></li>
+                    <li class="active"><a href="Moncompte.php">Mon compte</a></li>
                     <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -66,6 +67,12 @@ if(isset($_SESSION['login'])){
             <div class="col-sm-8">
                 <h1>Mon Dossier</h1>
             </div>
+            <?php
+                $cone  = $_SESSION['cone'];
+                $candidat = $man->getInfos($cone['id_candidat']);
+
+                echo "<h3> Bonjour ".$candidat['prenom']." ".$candidat['nom'].". </h3>";
+             ?>
         </div>
 
     </div>
@@ -82,8 +89,7 @@ if(isset($_SESSION['login'])){
                     Cette page est en conctruction
                     <?php
 
-                        $cone  = $_SESSION['cone'];
-                        $candidat = $man->getInfos($cone['id_candidat']);
+                        
 
                         echo $candidat['prenom']." ".$candidat['nom']." ".$candidat['nationalite'];
                     ?>
