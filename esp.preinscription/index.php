@@ -38,6 +38,7 @@ session_start();
 				<ul class="nav navbar-nav pull-right mainNav">
 
 					<li class="active"><a href="index.php">Accueil</a></li><?php if(!isset($_SESSION['login'])){?>
+					<li><a href="offreformation.php">Offres de formation</a></li>
                     <li class="active"><a href="inscription.php">Pré-inscrire</a></li>
                     <li><a href="connectre.php">Se Connecter</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -175,10 +176,10 @@ session_start();
                     <div class="col-md-6 panel">
                         <div class="panel-body">
                             <p class="simplenav">
-                                <a href="index.html">Accueil</a> |
-                               <a href="offreformation.html">Offres de formation</a> |
-                                <a href="inscription.html">Pré-inscrire</a> |
-                                <a href="connectre.html">Se Connecter</a> |
+                                <a href="index.php">Accueil</a> |
+                               <a href="offreformation.php">Offres de formation</a> |
+                                <a href="inscription.php">Pré-inscrire</a> |
+                                <a href="connectre.php">Se Connecter</a> |
                                 <a href="contact.html">Contact</a>
                             </p>
                         </div>

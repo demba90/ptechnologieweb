@@ -1,6 +1,6 @@
 <?php 
 
-include '../ManageurDB.php';
+include '../../ManageurDB.php';
 
 $man = new ManageurDB();
 
@@ -58,9 +58,9 @@ header('Location:../offreformation.html');
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right mainNav">
                 <li ><a href="../index.php">Accueil</a></li>
-                <li class="active" ><a href="../offreformation.html">Offres de formation</a></li>
-                <li ><a href="../inscription.html">Pré-inscrire</a></li>
-                <li><a href="../connectre.html">Se Connecter</a></li>
+                <li class="active" ><a href="../offreformation.php">Offres de formation</a></li>
+                <li ><a href="../inscription.php">Pré-inscrire</a></li>
+                <li><a href="../connectre.php">Se Connecter</a></li>
                 <li><a href="../contact.html">Contact</a></li>
             </ul>
         </div>
@@ -141,9 +141,9 @@ header('Location:../offreformation.html');
                     <div class="panel-body">
                         <p class="simplenav">
                             <a href="../index.php">Accueil</a> |
-                            <a href="../offreformation.html">Offres de formation</a> |
-                            <a href="../inscription.html">Pré-inscrire</a> |
-                            <a href="../connectre.html">Se Connecter</a> |
+                            <a href="../offreformation.php">Offres de formation</a> |
+                            <a href="../inscription.php">Pré-inscrire</a> |
+                            <a href="../connectre.php">Se Connecter</a> |
                             <a href="../contact.html">Contact</a>
                         </p>
                     </div>
