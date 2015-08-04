@@ -247,7 +247,36 @@ if(!isset($_SESSION['login'])){
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- /block -->
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <!-- block -->
+                            <div class="block">
+                                <div class="navbar navbar-inner block-header">
+                                    <div class="muted pull-left">Nouveaux</div>
+                                    <div class="pull-right"><span class="badge badge-info">5</span>
+
+                                    </div>
+                                </div>
+                                <div class="block-content collapse in">
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
                                         </tbody>
                                     </table>
                                 </div>
