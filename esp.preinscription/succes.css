@@ -1,0 +1,175 @@
+#toute_la_page_succes
+{
+	display: none;
+}
+
+#bloc_succes
+{
+	width: 980px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 7em;
+}
+
+#succes
+{
+	text-align: center;
+	background-color: #5cb85c;
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+#bloc_succes a
+{
+	display: inline-block;
+	padding: 8px;
+	width: 100px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #5abfde;
+	border: 1px solid #5abfde;
+	color: white;
+	font-size: 1.1em;
+	border-top: 3px solid #2b28ab;
+}
+
+#bloc_succes a:hover
+{
+	background-color: #2b28ab;
+	border: 1px solid #2b28ab;
+	border-top: 3px solid #5abfde;
+}
+
+
+			/* MISE EN PAGE DE OVERLAY PAIEMENT */
+
+#bloc_overlay_paiement
+{
+	position: absolute;
+  	top: 0; left: 0;
+  	width: 100%;
+    height: 150%; 
+    padding-top: 10px;
+  /* Ci-dessous, nous appliquons un background de couleur noire et d'opacité 0.6. Il s'agit d'une propriété CSS3. */
+  	background-color: rgba(0,0,0,0.6);
+}
+
+.overlay_paiement
+{
+	width: 405px;
+	padding: 20px;
+	margin: auto;
+	font-family: Georgia;
+	border-bottom: 2px solid #5abfde;
+	background-color: white;
+}
+
+#en_gras
+{
+	font-weight: bold;
+}
+
+
+/*MISE EN FORME DU BLOC IMAGE*/
+.bloc_image
+{
+	border-bottom: 2px solid #c3c3c3;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.bloc_image img
+{
+	width: 150px;
+	height: 100px;
+}
+
+/*MISE EN FORME DU BLOC CLIENT*/
+.bloc_client
+{
+	margin-bottom: 8px;
+}
+
+.bloc_client td /* Toutes les cellules des tableaux... */
+{
+    width: 150px;
+}
+
+.bloc_client tr
+{
+	display: block;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+}
+
+
+/* MISE EN FORME DU BLOC TARIF*/
+.bloc_tarif
+{
+	margin-bottom: 25px;
+}
+
+.bloc_tarif table
+{
+	border-collapse: collapse;
+}
+
+
+.bloc_tarif td
+{
+	 border-bottom: 1px solid #c3c3c3; /* auront une bordure de 1px */
+	 width: 150px;
+	 height: 30px;
+}
+
+.bloc_tarif tr td:last-child
+{
+	text-align: right;
+}
+
+.bloc_tarif tr:last-child td
+{
+	width: 50%;
+}
+
+/*MISE EN FORME DU BLOC BOUTIQUE*/
+.bloc_boutique
+{
+	margin-bottom: 20px;
+}
+
+.bloc_boutique td
+{
+	height: 25px;
+}
+
+/*MISE EN FORME DU LIENT*/
+#lienOK
+{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	margin: auto;
+	padding: 4px;
+	background-color: #6aca24;
+	border: 1px solid #6aca24;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+#lienOK:hover
+{
+	border: 1px solid #439d43;
+	background-color: #439d43;
+}
+
+/* MISE EN FORME DU PIED DE PAGE */
+#pied_de_page, #pied_de_page img
+{
+	width: 100%;
+	height: 180px;
+	border-bottom: 1px solid #000000;
+}

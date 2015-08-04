@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Demande</title>
+		<title> Quitus</title>
 		<meta charset="UTF-8" />
 		
 		<link rel="stylesheet" type="text/css" href="succes.css">
@@ -20,8 +20,7 @@ session_start();
 
 		<div id="bloc_overlay_paiement">
 				<div class="overlay_paiement">
-					lkrengsdfnmkvnsudfhvhdfnvurvjfb
-
+					
 					<a href="#" id="lienOK">OK</a>
 				</div>
 			</div>
@@ -62,3 +61,5 @@ session_start();
 
 </script>
 
+<?php  
+?>

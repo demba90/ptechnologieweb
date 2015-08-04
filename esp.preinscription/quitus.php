@@ -101,7 +101,7 @@ if(isset($_SESSION['login'])){
                                 <div class="col-md-5">
                                     <div class="form-group" id="prenom">
                                         <label for="quitus">Numero du quitus : </label>
-                                        <input type="text"  name="prenom" class="form-control" placeholder="N° du quitus" required>
+                                        <input type="number"  name="quitus" class="form-control" placeholder="N° du quitus" required>
                                     </div>
                                 </div>
                         </div>

@@ -50,7 +50,7 @@ if(!isset($_SESSION['login'])){
                                     </li>
                                     <li class="divider"></li>
                                     <li>
-                                        <a tabindex="-1" href="login.html">Logout</a>
+                                        <a tabindex="-1" href="index.html">Logout</a>
                                     </li>
                                 </ul>
                             </li>

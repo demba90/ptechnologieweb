@@ -304,7 +304,7 @@
 	//public fonction pour verifier un quitus
 	public function verifQuitus($numero){
 
-		$req = $this->getPDO()->prepare("SELECT * FROM pre_quitus WHERE numero=?");
+		$req = $this->getPDO()->prepare("SELECT * FROM pre_quitus WHERE idQuitus=?");
 		$req->execute(array($numero));
 
 		if(!$req){
