@@ -88,11 +88,11 @@ $man = new ManageurDB();
         }
             
         else{
-            echo 'Le captcha n\'est pas bon.';
+            header('Location: index.php?captcha=0');
         }
     }
     else
-        echo 'Il faut remplir tous les champs.';
+        header('Location: index.php');
     }
 //    elseif(isset($_POST["close"])){
 //        header('Location: index.php');

@@ -1,3 +1,7 @@
+<?php
+    include("../ManageurDB.php");
+    $man = new ManageurDB();
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -143,15 +147,20 @@
                                     <div class="form-group" id="nationnalite">
                                         <label for="nationnalite">Nationalité :</label>
                                         <select name="nationnalite"  class="form-control">
-                                            <option value="sénégal">Sénégal</option>
-                                            <option value="guinné conakry">Guinné Conakry</option>
-                                            <option value="guinné bissao">Guinné Bissao</option>
-                                            <option value="mali">Mali</option>
-                                            <option value="mauritanie">Mauritanie</option>
-                                            <option value="gambie">Gambie</option>
+                                            <?php
+                                            $reponse = $man->getAllNationalited();
+                                            $i = 0;
+
+                                            foreach ($reponse as $key => $value) {
+                                                $nat =  $reponse[$key]["nationalite"];
+                                                echo '<option value="'.$nat.'">'.$nat.'</option>';
+                                            }
+
+                                            ?>
                                         </select>
                                     </div>
                                 </div>
+
                             </div>
                         </fieldset>
                         <fieldset>
@@ -247,7 +256,8 @@
 
                         <div  style="margin-top: 10px;" id="contact_form" class="col-md-5">
                             <div class="row">
-                                <label for="captcha" >Recopiez le mot : <img src="captcha.php" alt="Captcha" /></label>
+                                <label for="captcha" >Recopiez le mot : <img src="captcha.php" alt="Captcha" /><?php if(isset($_GET["captcha"]))
+                                        echo '<p id="errorcapt"> Le mot ne correspond pas</p>' ;?></label>
                                 <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Pour des raisons de sécurité, entré le code afficher en haut" />
                             </div>
                            </div>

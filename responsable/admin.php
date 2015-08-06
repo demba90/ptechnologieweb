@@ -57,7 +57,7 @@ if(!isset($_SESSION['login'])){
                         </ul>
                         <ul class="nav">
                             <li class="active">
-                                <a href="#">Tableau de bord</a>
+                                <a href="admin.php">Tableau de bord</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Suivis <b class="caret"></b>
@@ -132,7 +132,7 @@ if(!isset($_SESSION['login'])){
                             <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                         </li>
                         <li>
-                            <a href="statisque.php"><i class="icon-chevron-right"></i> Statistique</a>
+                            <a href="stats_2.php"><i class="icon-chevron-right"></i> Statistique</a>
                         </li>
                         <!--<li>
                             <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>

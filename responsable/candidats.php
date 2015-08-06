@@ -57,7 +57,7 @@ if(!isset($_SESSION['login'])){
                         </ul>
                         <ul class="nav">
                             <li class="active">
-                                <a href="#">Tableau de bord</a>
+                                <a href="admin.php">Tableau de bord</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Suivis <b class="caret"></b>

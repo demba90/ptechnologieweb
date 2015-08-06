@@ -41,7 +41,7 @@ if(!isset($_SESSION['login'])){
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right">
                             <li class="dropdown">
-                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i>Gesrvais Mendy<i class="caret"></i>
+                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i>Gervvais Mendy<i class="caret"></i>
 
                                 </a>
                                 <ul class="dropdown-menu">
@@ -57,7 +57,7 @@ if(!isset($_SESSION['login'])){
                         </ul>
                         <ul class="nav">
                             <li class="active">
-                                <a href="#">Tableau de bord</a>
+                                <a href="admin.php">Tableau de bord</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Suivis <b class="caret"></b>

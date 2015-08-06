@@ -65,7 +65,7 @@
 	*/
 		public static function getInstance(){
 		if(is_null(self::$instance)){
-			self::$instance = new ManageurDB_Pret();
+			self::$instance = new ManageurDB();
 		}
 		return self::$instance;
 	}
@@ -114,6 +114,17 @@
 			return $r;
 		}
 	}
+
+        //Fonction de prise des informations du candidat
+        public function getAllNationalited(){
+            $req = $this->getPDO()->query("SELECT nationalite FROM `pre_nationalites`");
+            if(!$req){
+                return false;
+            }
+            else{
+                return $req->fetchAll();
+            }
+        }
 
 	//fonction generation de id
 	public function genId(){
