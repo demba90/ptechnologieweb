@@ -100,6 +100,11 @@
 					<br />
 						<br />
 					</p>
+                    <p class="alert-info" align="center">
+                        <>
+                        <br />
+                        <br />
+                    </p>
 
 
                     <form class="form-light mt-20" role="form" method="post" action="Redirection.php">
@@ -136,8 +141,8 @@
                                     <div class="form-group" id="lieunais">
                                         <label for="lieunais">Sexe :</label>
                                         <select name="sexe"  class="form-control">
-                                            <option value="sénégal">M</option>
-                                            <option value="guinné conakry">F</option>
+                                            <option value="M">M</option>
+                                            <option value="F">F</option>
                                         </select>
                                     </div>
                                 </div>

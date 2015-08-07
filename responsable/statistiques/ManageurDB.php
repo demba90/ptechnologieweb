@@ -1,7 +1,7 @@
 <?php 
 
 	//include "lib/swift_required.php";
-	require("../../../ptechnologieweb/swiftmailer/lib/swift_required.php");
+//	require("../../../ptechnologieweb/swiftmailer/lib/swift_required.php");
 	// Début de définition de la classe ManageurDB_Pret
 	class ManageurDB {
 	/**
@@ -397,14 +397,39 @@
 		}
 	}
     public function getHomme(){
-        $req = $this->getPDO()->exec("SELECT *  FROM pre_candidat WHERE sexe= 'M'");
-        return $req->rowCount();
+        $req = $this->getPDO()->query("SELECT sexe  FROM pre_candidat WHERE sexe= 'M'");
+        $rep = $req->fetchAll();
+        $i = 0;
+
+        foreach ($rep as $key => $value) {
+            $nat =  $rep[$key]["sexe"];
+            $i++;
+        }
+        return $i;
     }
 
     public function getFemme(){
-        $req = $this->getPDO()->exec("SELECT *  FROM pre_candidat WHERE sexe= 'F'");
-        return $req->rowCount();
+        $req = $this->getPDO()->query("SELECT sexe  FROM pre_candidat WHERE sexe= 'F'");
+        $rep =  $req->fetchAll();
+        $i = 0;
+
+        foreach ($rep as $key => $value) {
+            $nat =  $rep[$key]["sexe"];
+            $i++;
+        }
+        return $i;
     }
 
+    public function getNbCandidats(){
+        $req = $this->getPDO()->query("SELECT sexe  FROM pre_candidat");
+        $rep =  $req->fetchAll();
+        $i = 0;
+
+        foreach ($rep as $key => $value) {
+            $nat =  $rep[$key]["sexe"];
+            $i++;
+        }
+        return $i;
+    }
 }
 ?>

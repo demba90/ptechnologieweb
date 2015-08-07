@@ -181,7 +181,7 @@
                 </ul>
                 <ul class="nav">
                     <li class="active">
-                        <a href="admin.php">Tableau de bord</a>
+                        <a href="../../admin.php">Tableau de bord</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques Confirmé <b class="caret"></b>
@@ -244,13 +244,13 @@
         <div class="span3" id="sidebar">
             <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
                 <li class="active">
-                    <a href="admin.php"><i class="icon-chevron-right"></i> Tableau de bord</a>
+                    <a href="../../admin.php"><i class="icon-chevron-right"></i> Tableau de bord</a>
                 </li>
                 <li >
-                    <a href="candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
+                    <a href="../../candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
                 </li>
                 <li>
-                    <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
+                    <a href="../../calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                 </li>
             </ul>
         </div>

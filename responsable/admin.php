@@ -59,7 +59,7 @@ if(!isset($_SESSION['login'])){
                             <li class="active">
                                 <a href="admin.php">Tableau de bord</a>
                             </li>
-                            <<li class="dropdown">
+                            <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques Confirmé <b class="caret"></b>
 
                                 </a>
@@ -77,10 +77,10 @@ if(!isset($_SESSION['login'])){
                                         <a href="statistiques/statistiquesconfirme/niveau.php">Niveau</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/sexe.php">Département</a>
+                                        <a href="statistiques/statistiquesconfirme/departement.php">Département</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/formation.php">Formation</a>
+                                        <a href="statistiques/statistiquesconfirme/statistiquesformation.php">Formation</a>
                                     </li>
                                 </ul>
                             </li>
@@ -96,13 +96,13 @@ if(!isset($_SESSION['login'])){
                                         <a href="statistiques/statistiquesnonconfirme/nationalite.php">Nationalité</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">sexe</a>
+                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">Sexe</a>
                                     </li>
                                     <li>
                                         <a href="statistiques/statistiquesnonconfirme/niveau.php">Niveau</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">Département</a>
+                                        <a href="statistiques/statistiquesnonconfirme/departement.php">Département</a>
                                     </li>
                                     <li>
                                         <a href="statistiques/statistiquesnonconfirme/formation.php">Formation</a>
@@ -159,93 +159,28 @@ if(!isset($_SESSION['login'])){
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Statistiques</div>
+                                <div class="muted pull-left">Statistiques sexe</div>
                                 <div class="pull-right"><span class="badge badge-warning">View More</span>
 
                                 </div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span3">
-                                    <div class="chart" data-percent="73">73%</div>
-                                    <div class="chart-bottom-heading"><span class="label label-info">Visiteurs</span>
-
+                                    <?php $n = $man->getHomme()*100/$man->getNbCandidats();
+                                    echo '<div class="chart" data-percent='.$n.'>'.$n.'</div>
+                                    <div class="chart-bottom-heading" title="Sexe homme" ><span class="label label-info">Homme</span>';?>
                                     </div>
                                 </div>
                                 <div class="span3">
-                                    <div class="chart" data-percent="53">53%</div>
-                                    <div class="chart-bottom-heading"><span class="label label-info">pré-inscrits</span>
-
-                                    </div>
-                                </div>
-                                <div class="span3">
-                                    <div class="chart" data-percent="83">83%</div>
-                                    <div class="chart-bottom-heading"><span class="label label-info">Nouveaux</span>
-
+                                    <?php $n = $man->getFemme()*100/$man->getNbCandidats();
+                                    echo '<div class="chart" data-percent='.$n.'>'.$n.'</div>
+                                    <div class="chart-bottom-heading"><span class="label label-info">Femme</span>';?>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- /block -->
                     </div>
-                    <div class="row-fluid">
-                        <div class="span6">
-                            <!-- block -->
-                            <div class="block">
-                                <div class="navbar navbar-inner block-header">
-                                    <div class="muted pull-left">Nouveaux</div>
-                                    <div class="pull-right"><span class="badge badge-info">5</span>
-
-                                    </div>
-                                </div>
-                                <div class="block-content collapse in">
-                                    <table class="table table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <!-- /block -->
-                        </div>
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span6">
-                            <!-- block -->
-                            <div class="block">
-                                <div class="navbar navbar-inner block-header">
-                                    <div class="muted pull-left">Nouveaux</div>
-                                    <div class="pull-right"><span class="badge badge-info">5</span>
-
-                                    </div>
-                                </div>
-                                <div class="block-content collapse in">
-                                    <table class="table table-striped">
-                                        <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <!-- /block -->
-                        </div>
-                    </div>
-
                 </div>
             </div>
             <hr>

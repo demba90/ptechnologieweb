@@ -88,7 +88,7 @@ $man = new ManageurDB();
         }
             
         else{
-            header('Location: index.php?captcha=0');
+            header('Location: inscription.php?captcha=0');
         }
     }
     else

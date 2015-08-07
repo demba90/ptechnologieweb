@@ -407,5 +407,40 @@
 			return $r;
 		}
 	}
+        public function getHomme(){
+            $req = $this->getPDO()->query("SELECT sexe  FROM pre_candidat WHERE sexe= 'M'");
+            $rep = $req->fetchAll();
+            $i = 0;
+
+            foreach ($rep as $key => $value) {
+                $nat =  $rep[$key]["sexe"];
+                $i++;
+            }
+            return $i;
+        }
+
+        public function getFemme(){
+            $req = $this->getPDO()->query("SELECT sexe  FROM pre_candidat WHERE sexe= 'F'");
+            $rep =  $req->fetchAll();
+            $i = 0;
+
+            foreach ($rep as $key => $value) {
+                $nat =  $rep[$key]["sexe"];
+                $i++;
+            }
+            return $i;
+        }
+
+        public function getNbCandidats(){
+            $req = $this->getPDO()->query("SELECT sexe  FROM pre_candidat");
+            $rep =  $req->fetchAll();
+            $i = 0;
+
+            foreach ($rep as $key => $value) {
+                $nat =  $rep[$key]["sexe"];
+                $i++;
+            }
+            return $i;
+        }
 }
 ?>
