@@ -59,59 +59,56 @@ if(!isset($_SESSION['login'])){
                             <li class="active">
                                 <a href="admin.php">Tableau de bord</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques <b class="caret"></b>
+                            <<li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques Confirmé <b class="caret"></b>
 
                                 </a>
                                 <ul class="dropdown-menu" id="menu1">
                                     <li>
-                                        <a href="stats4.php">Stat demo</a>
+                                        <a href="statistiques/statistiquesconfirme/candidats.php">Nombre de candidats</a>
                                     </li>
                                     <li>
-                                        <a href="#">Erreurs</a>
+                                        <a href="statistiques/statistiquesconfirme/nationalite.php">Nationalité</a>
                                     </li>
-
+                                    <li>
+                                        <a href="statistiques/statistiquesconfirme/sexe.php">Sexe</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesconfirme/niveau.php">Niveau</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesconfirme/sexe.php">Département</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesconfirme/formation.php">Formation</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <!-- <li class="dropdown">
-                                 <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Content <i class="caret"></i>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques  Non Confirmé <b class="caret"></b>
 
-                                 </a>
-                                 <ul class="dropdown-menu">
-                                     <li>
-                                         <a tabindex="-1" href="#">Blog</a>
-                                     </li>
-                                     <li>
-                                         <a tabindex="-1" href="#">News</a>
-                                     </li>
-                                     <li>
-                                         <a tabindex="-1" href="#">Custom Pages</a>
-                                     </li>
-                                     <li>
-                                         <a tabindex="-1" href="#">Calendar</a>
-                                     </li>
-                                     <li class="divider"></li>
-                                     <li>
-                                         <a tabindex="-1" href="#">FAQ</a>
-                                     </li>
-                                 </ul>
-                             </li>
-                             <li class="dropdown">
-                                 <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Users <i class="caret"></i>
-
-                                 </a>
-                                 <ul class="dropdown-menu">
-                                     <li>
-                                         <a tabindex="-1" href="#">User List</a>
-                                     </li>
-                                     <li>
-                                         <a tabindex="-1" href="#">Search</a>
-                                     </li>
-                                     <li>
-                                         <a tabindex="-1" href="#">Permissions</a>
-                                     </li>
-                                 </ul>
-                             </li>-->
+                                </a>
+                                <ul class="dropdown-menu" id="menu1">
+                                    <li>
+                                        <a href="statistiques/statistiquesnonconfirme/candidats.php">Nombre de candidats</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesnonconfirme/nationalite.php">Nationalité</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">sexe</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesnonconfirme/niveau.php">Niveau</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">Département</a>
+                                    </li>
+                                    <li>
+                                        <a href="statistiques/statistiquesnonconfirme/formation.php">Formation</a>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -131,43 +128,7 @@ if(!isset($_SESSION['login'])){
                         <li>
                             <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                         </li>
-                        <li>
-                            <a href="stats_2.php"><i class="icon-chevron-right"></i> Statistique</a>
-                        </li>
-                        <!--<li>
-                            <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>
-                        </li>-->
-                        <!--<li>
-                            <a href="buttons.html"><i class="icon-chevron-right"></i> Buttons & Icons</a>
-                        </li>
-                        <li>
-                            <a href="interface.html"><i class="icon-chevron-right"></i> UI & Interface</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-success pull-right">731</span> Orders</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-success pull-right">812</span> Invoices</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-info pull-right">27</span> Clients</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-info pull-right">1,234</span> Users</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-info pull-right">2,221</span> Messages</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-info pull-right">11</span> Reports</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-important pull-right">83</span> Errors</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="badge badge-warning pull-right">4,231</span> Logs</a>
-                        </li>
-                        -->
+
                     </ul>
                 </div>
 
