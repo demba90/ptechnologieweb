@@ -198,6 +198,11 @@ if(!isset($_SESSION['login'])){
                                 <?php $m = $man->getNbCandidatsPays("Mauritanie")*100/$man->getNbCandidats();
                                 echo '<div class="chart" data-percent='.$m.'>'.$m.'</div>
                                      <div class="chart-bottom-heading"><span class="label label-info">Mauritanienne</span>';?>
+                            </div></div>
+                            <div class="span3">
+                                <?php $m = $man->getNbCandidatsPays("Malienne")*100/$man->getNbCandidats();
+                                echo '<div class="chart" data-percent='.$m.'>'.$m.'</div>
+                                     <div class="chart-bottom-heading"><span class="label label-info">Malienne</span>';?>
                             </div>
                         </div>
                     </div>

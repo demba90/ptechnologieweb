@@ -4,21 +4,7 @@
     <list default="true" id="68a3bdf9-80b5-4f69-82c0-63c557b6ecc0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManageurDB.php" afterPath="$PROJECT_DIR$/ManageurDB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/admin.php" afterPath="$PROJECT_DIR$/responsable/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/calendar.php" afterPath="$PROJECT_DIR$/responsable/calendar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/candidats.php" afterPath="$PROJECT_DIR$/responsable/candidats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/candidats.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/candidats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/candidats.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/candidats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/departement.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/departement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/departement.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/departement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/formation.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/formation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/formation.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/formation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/nationalite.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/nationalite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/nationalite.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/nationalite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/niveau.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/niveau.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/niveau.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/niveau.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/sexe.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/sexe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/sexe.php" afterPath="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/sexe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esp.preinscription/inscription.php" afterPath="$PROJECT_DIR$/esp.preinscription/inscription.php" />
     </list>
     <ignored path="ptechnologieweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,12 +29,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responsable/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7671233" vertical-offset="3236" max-vertical-offset="4403">
-              <caret line="220" column="72" selection-start-line="220" selection-start-column="72" selection-end-line="220" selection-end-column="72" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="4488">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageurDB.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/responsable/statistiques/ManageurDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="9.056316" vertical-offset="1037" max-vertical-offset="7497">
+              <caret line="411" column="50" selection-start-line="411" selection-start-column="50" selection-end-line="411" selection-end-column="50" />
+              <folding>
+                <marker date="1438940594265" expanded="true" signature="1985:2050" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="2327:2378" placeholder="SELECT * FRO..pre_user..." />
+                <marker date="1438940594265" expanded="true" signature="2643:2688" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438940594265" expanded="true" signature="3282:3334" placeholder="INSERT iNTO ..." />
+                <marker date="1438940594265" expanded="true" signature="3609:3653" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="3894:3996" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="4306:4363" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="4691:4735" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="4987:5026" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="5285:5365" placeholder="UPDATE pre_d..." />
+                <marker date="1438940594265" expanded="true" signature="5615:5693" placeholder="UPDATE pre_d..." />
+                <marker date="1438940594265" expanded="true" signature="5895:6178" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438940594265" expanded="true" signature="6418:6463" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438940594265" expanded="true" signature="6564:6604" placeholder="INSERT INTO ..." />
+                <marker date="1438940594265" expanded="true" signature="6884:6955" placeholder="UPDATE pre_d..." />
+                <marker date="1438940594265" expanded="true" signature="7192:7253" placeholder="SELECT * FRO..pre_formation..." />
+                <marker date="1438940594265" expanded="true" signature="7483:7531" placeholder="SELECT * FRO..pre_departement..." />
+                <marker date="1438940594265" expanded="true" signature="7791:7830" placeholder="SELECT * FRO..pre_quitus..." />
+                <marker date="1438940594265" expanded="true" signature="8119:8563" placeholder="..." />
+                <marker date="1438940594265" expanded="true" signature="8125:8556" placeholder="..." />
+                <marker date="1438940594265" expanded="true" signature="9869:9930" placeholder="SELECT * FRO..pre_administrateur..." />
+                <marker date="1438940594265" expanded="true" signature="10157:10215" placeholder="SELECT * FRO..pre_responsable..." />
+                <marker date="1438940594265" expanded="true" signature="10420:10466" placeholder="SELECT sexe ..pre_candidat..." />
+                <marker date="1438940594265" expanded="true" signature="10728:10774" placeholder="SELECT sexe ..pre_candidat..." />
+                <marker date="1438940594265" expanded="true" signature="11043:11073" placeholder="SELECT sexe ..pre_candidat..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +78,47 @@
       <file leaf-file-name="ManageurDB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ManageurDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.461538" vertical-offset="3652" max-vertical-offset="8075">
-              <caret line="240" column="21" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="21" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="5386" max-vertical-offset="8075">
+              <caret line="338" column="79" selection-start-line="338" selection-start-column="79" selection-end-line="338" selection-end-column="79" />
+              <folding>
+                <marker date="1438948497614" expanded="true" signature="1955:2020" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="2297:2348" placeholder="SELECT * FRO..pre_user..." />
+                <marker date="1438948497614" expanded="true" signature="2613:2658" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="2933:2975" placeholder="SELECT natio..." />
+                <marker date="1438948497614" expanded="true" signature="3595:3647" placeholder="INSERT iNTO ..." />
+                <marker date="1438948497614" expanded="true" signature="3922:3966" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="4207:4309" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="4619:4676" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="5004:5048" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="5300:5339" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="5598:5678" placeholder="UPDATE pre_d..." />
+                <marker date="1438948497614" expanded="true" signature="5928:6006" placeholder="UPDATE pre_d..." />
+                <marker date="1438948497614" expanded="true" signature="6208:6491" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="6731:6776" placeholder="SELECT * FRO..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="6877:6917" placeholder="INSERT INTO ..." />
+                <marker date="1438948497614" expanded="true" signature="7197:7268" placeholder="UPDATE pre_d..." />
+                <marker date="1438948497614" expanded="true" signature="7505:7566" placeholder="SELECT * FRO..pre_formation..." />
+                <marker date="1438948497614" expanded="true" signature="7796:7844" placeholder="SELECT * FRO..pre_departement..." />
+                <marker date="1438948497614" expanded="true" signature="8104:8145" placeholder="SELECT * FRO..pre_quitus..." />
+                <marker date="1438948497614" expanded="true" signature="8434:8844" placeholder="..." />
+                <marker date="1438948497614" expanded="true" signature="8440:8837" placeholder="..." />
+                <marker date="1438948497614" expanded="true" signature="10150:10211" placeholder="SELECT * FRO..pre_administrateur..." />
+                <marker date="1438948497614" expanded="true" signature="10438:10496" placeholder="SELECT * FRO..pre_responsable..." />
+                <marker date="1438948497614" expanded="true" signature="10709:10755" placeholder="SELECT sexe ..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="11013:11059" placeholder="SELECT sexe ..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="11324:11354" placeholder="SELECT sexe ..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="11630:11695" placeholder="SELECT natio..pre_candidat..." />
+                <marker date="1438948497614" expanded="true" signature="12022:12102" placeholder="SELECT `idDo..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inscription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esp.preinscription/inscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="4233" max-vertical-offset="5865">
+              <caret line="265" column="94" selection-start-line="265" selection-start-column="94" selection-end-line="265" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -107,7 +168,6 @@
         <option value="$PROJECT_DIR$/responsable/candidats.php" />
         <option value="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/niveau.php" />
         <option value="$PROJECT_DIR$/esp.preinscription/Redirection.php" />
-        <option value="$PROJECT_DIR$/esp.preinscription/inscription.php" />
         <option value="$PROJECT_DIR$/responsable/statistiques/ManageurDB.php" />
         <option value="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/sexe.php" />
         <option value="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/sexe.php" />
@@ -121,6 +181,7 @@
         <option value="$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/candidats.php" />
         <option value="$PROJECT_DIR$/responsable/statistiques/statistiquesconfirme/candidats.php" />
         <option value="$PROJECT_DIR$/ManageurDB.php" />
+        <option value="$PROJECT_DIR$/esp.preinscription/inscription.php" />
         <option value="$PROJECT_DIR$/responsable/admin.php" />
       </list>
     </option>
@@ -190,6 +251,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statistiques" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptechnologieweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statistiques" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statistiquesconfirme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -256,7 +357,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="878" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -266,7 +367,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2716129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,48 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/esp.preinscription/inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="2261" max-vertical-offset="5865">
-          <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/responsable/statistiques/ManageurDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5175038" vertical-offset="6681" max-vertical-offset="7497">
-          <caret line="413" column="15" selection-start-line="413" selection-start-column="15" selection-end-line="413" selection-end-column="15" />
-          <folding>
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_user..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT iNTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="UPDATE pre_d..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_formation..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_departement..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_quitus..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_administrateur..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_responsable..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..pre_candidat..." />
-            <marker date="1438940594265" expanded="true" signature="-1:-1" placeholder="SELECT sexe ..pre_candidat..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/responsable/statistiques/statistiquesnonconfirme/sexe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56925416" vertical-offset="2703" max-vertical-offset="5338">
@@ -713,17 +772,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ManageurDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.461538" vertical-offset="3652" max-vertical-offset="8075">
-          <caret line="240" column="21" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="21" />
+        <state vertical-scroll-proportion="-6.0" vertical-offset="5386" max-vertical-offset="8075">
+          <caret line="338" column="79" selection-start-line="338" selection-start-column="79" selection-end-line="338" selection-end-column="79" />
+          <folding>
+            <marker date="1438948497614" expanded="true" signature="1955:2020" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="2297:2348" placeholder="SELECT * FRO..pre_user..." />
+            <marker date="1438948497614" expanded="true" signature="2613:2658" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="2933:2975" placeholder="SELECT natio..." />
+            <marker date="1438948497614" expanded="true" signature="3595:3647" placeholder="INSERT iNTO ..." />
+            <marker date="1438948497614" expanded="true" signature="3922:3966" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="4207:4309" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="4619:4676" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="5004:5048" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="5300:5339" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="5598:5678" placeholder="UPDATE pre_d..." />
+            <marker date="1438948497614" expanded="true" signature="5928:6006" placeholder="UPDATE pre_d..." />
+            <marker date="1438948497614" expanded="true" signature="6208:6491" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="6731:6776" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="6877:6917" placeholder="INSERT INTO ..." />
+            <marker date="1438948497614" expanded="true" signature="7197:7268" placeholder="UPDATE pre_d..." />
+            <marker date="1438948497614" expanded="true" signature="7505:7566" placeholder="SELECT * FRO..pre_formation..." />
+            <marker date="1438948497614" expanded="true" signature="7796:7844" placeholder="SELECT * FRO..pre_departement..." />
+            <marker date="1438948497614" expanded="true" signature="8104:8145" placeholder="SELECT * FRO..pre_quitus..." />
+            <marker date="1438948497614" expanded="true" signature="8434:8844" placeholder="..." />
+            <marker date="1438948497614" expanded="true" signature="8440:8837" placeholder="..." />
+            <marker date="1438948497614" expanded="true" signature="10150:10211" placeholder="SELECT * FRO..pre_administrateur..." />
+            <marker date="1438948497614" expanded="true" signature="10438:10496" placeholder="SELECT * FRO..pre_responsable..." />
+            <marker date="1438948497614" expanded="true" signature="10709:10755" placeholder="SELECT sexe ..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="11013:11059" placeholder="SELECT sexe ..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="11324:11354" placeholder="SELECT sexe ..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="11630:11695" placeholder="SELECT natio..pre_candidat..." />
+            <marker date="1438948497614" expanded="true" signature="12022:12102" placeholder="SELECT `idDo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esp.preinscription/inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="4233" max-vertical-offset="5865">
+          <caret line="265" column="94" selection-start-line="265" selection-start-column="94" selection-end-line="265" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/responsable/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7671233" vertical-offset="3236" max-vertical-offset="4403">
-          <caret line="220" column="72" selection-start-line="220" selection-start-column="72" selection-end-line="220" selection-end-column="72" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="4488">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsable/statistiques/ManageurDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.056316" vertical-offset="1037" max-vertical-offset="7497">
+          <caret line="411" column="50" selection-start-line="411" selection-start-column="50" selection-end-line="411" selection-end-column="50" />
+          <folding>
+            <marker date="1438940594265" expanded="true" signature="1985:2050" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="2327:2378" placeholder="SELECT * FRO..pre_user..." />
+            <marker date="1438940594265" expanded="true" signature="2643:2688" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438940594265" expanded="true" signature="3282:3334" placeholder="INSERT iNTO ..." />
+            <marker date="1438940594265" expanded="true" signature="3609:3653" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="3894:3996" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="4306:4363" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="4691:4735" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="4987:5026" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="5285:5365" placeholder="UPDATE pre_d..." />
+            <marker date="1438940594265" expanded="true" signature="5615:5693" placeholder="UPDATE pre_d..." />
+            <marker date="1438940594265" expanded="true" signature="5895:6178" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438940594265" expanded="true" signature="6418:6463" placeholder="SELECT * FRO..pre_candidat..." />
+            <marker date="1438940594265" expanded="true" signature="6564:6604" placeholder="INSERT INTO ..." />
+            <marker date="1438940594265" expanded="true" signature="6884:6955" placeholder="UPDATE pre_d..." />
+            <marker date="1438940594265" expanded="true" signature="7192:7253" placeholder="SELECT * FRO..pre_formation..." />
+            <marker date="1438940594265" expanded="true" signature="7483:7531" placeholder="SELECT * FRO..pre_departement..." />
+            <marker date="1438940594265" expanded="true" signature="7791:7830" placeholder="SELECT * FRO..pre_quitus..." />
+            <marker date="1438940594265" expanded="true" signature="8119:8563" placeholder="..." />
+            <marker date="1438940594265" expanded="true" signature="8125:8556" placeholder="..." />
+            <marker date="1438940594265" expanded="true" signature="9869:9930" placeholder="SELECT * FRO..pre_administrateur..." />
+            <marker date="1438940594265" expanded="true" signature="10157:10215" placeholder="SELECT * FRO..pre_responsable..." />
+            <marker date="1438940594265" expanded="true" signature="10420:10466" placeholder="SELECT sexe ..pre_candidat..." />
+            <marker date="1438940594265" expanded="true" signature="10728:10774" placeholder="SELECT sexe ..pre_candidat..." />
+            <marker date="1438940594265" expanded="true" signature="11043:11073" placeholder="SELECT sexe ..pre_candidat..." />
+          </folding>
         </state>
       </provider>
     </entry>

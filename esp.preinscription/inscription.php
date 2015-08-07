@@ -263,7 +263,7 @@
                             <div class="row">
                                 <label for="captcha" >Recopiez le mot : <img src="captcha.php" alt="Captcha" />
                                         <?php if(isset($_GET["captcha"])){
-                                        echo '<p id="errorcapt"> Le mot ne correspond pas</p>' ;
+                                        echo '<p id="errorcapt"> Le mot ne correspond pas. Retaper le mot en haut</p>' ;
                                     }
                                     ?>
                                 </label>
