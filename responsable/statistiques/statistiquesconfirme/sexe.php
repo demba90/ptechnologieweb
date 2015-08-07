@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+include "../ManageurDB.php";
+
+$man = new ManageurDB();
+
+if(!isset($_SESSION['login'])){
+    header('Location:../../index.php');
+}
+?>
 <!DOCTYPE html>
 <html class="no-js">
 
@@ -25,26 +36,27 @@
     ${demo.css}
     </style>
 
-    <script type="text/javascript">
 
-    $(function () {
+
+        <script type='text/javascript'>
+  $(function () {
         // Create the chart
         $('#container').highcharts({
             chart: {
                 type: 'column'
             },
             title: {
-                text: 'Browser market shares. January, 2015 to May, 2015'
+                text: 'Statistiques suivant le sexe des candidats'
             },
             subtitle: {
-                text: 'Click the columns to view versions. Source: <a href="http://netmarketshare.com">netmarketshare.com</a>.'
+                text: 'Clique sur la colonne pour voir plus de détailles. '
             },
             xAxis: {
-                type: 'category'
+                type: 'Sexe'
             },
             yAxis: {
                 title: {
-                    text: 'Total percent market share'
+                    text: 'Pourcentage par rapport aux sexe des candidats'
                 }
 
             },
@@ -67,38 +79,22 @@
             },
 
             series: [{
-                name: "Brands",
+                name: 'Pourcentage',
                 colorByPoint: true,
                 data: [{
-                    name: "Microsoft Internet Explorer",
-                    y: 56.33,
-                    drilldown: "Microsoft Internet Explorer"
+                    name: 'Homme',
+                    y: 70.00,
+                    drilldown: 'Homme'
                 }, {
-                    name: "Chrome",
-                    y: 24.030000000000005,
-                    drilldown: "Chrome"
-                }, {
-                    name: "Firefox",
-                    y: 10.38,
-                    drilldown: "Firefox"
-                }, {
-                    name: "Safari",
-                    y: 4.77,
-                    drilldown: "Safari"
-                }, {
-                    name: "Opera",
-                    y: 0.9100000000000001,
-                    drilldown: "Opera"
-                }, {
-                    name: "Proprietary or Undetectable",
-                    y: 0.2,
-                    drilldown: null
+                    name: 'Femme',
+                    y:30.00,
+                    drilldown: 'Femme'
                 }]
             }],
             drilldown: {
                 series: [{
-                    name: "Microsoft Internet Explorer",
-                    id: "Microsoft Internet Explorer",
+                    name: "Homme",
+                    id: "Homme",
                     data: [
                     [
                     "v11.0",
@@ -120,8 +116,8 @@
                     0.5]
                     ]
                 }, {
-                    name: "Chrome",
-                    id: "Chrome",
+                    name: "Femme",
+                    id: "Femme",
                     data: [
                     [
                     "v40.0",
@@ -166,83 +162,12 @@
                     "v30.0",
                     0.14]
                     ]
-                }, {
-                    name: "Firefox",
-                    id: "Firefox",
-                    data: [
-                    [
-                    "v35",
-                    2.76],
-                    [
-                    "v36",
-                    2.32],
-                    [
-                    "v37",
-                    2.31],
-                    [
-                    "v34",
-                    1.27],
-                    [
-                    "v38",
-                    1.02],
-                    [
-                    "v31",
-                    0.33],
-                    [
-                    "v33",
-                    0.22],
-                    [
-                    "v32",
-                    0.15]
-                    ]
-                }, {
-                    name: "Safari",
-                    id: "Safari",
-                    data: [
-                    [
-                    "v8.0",
-                    2.56],
-                    [
-                    "v7.1",
-                    0.77],
-                    [
-                    "v5.1",
-                    0.42],
-                    [
-                    "v5.0",
-                    0.3],
-                    [
-                    "v6.1",
-                    0.29],
-                    [
-                    "v7.0",
-                    0.26],
-                    [
-                    "v6.2",
-                    0.17]
-                    ]
-                }, {
-                    name: "Opera",
-                    id: "Opera",
-                    data: [
-                    [
-                    "v12.x",
-                    0.34],
-                    [
-                    "v28",
-                    0.24],
-                    [
-                    "v27",
-                    0.17],
-                    [
-                    "v29",
-                    0.16]
-                    ]
-                }]
+                } ]
             }
         });
     });
-     </script>
+     </script>";
+    ?>
 </head>
 <body>
 <div class="navbar navbar-fixed-top">
@@ -272,7 +197,7 @@
                 </ul>
                 <ul class="nav">
                     <li class="active">
-                        <a href="admin.php">Tableau de bord</a>
+                        <a href="../../admin.php">Tableau de bord</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques Confirmé <b class="caret"></b>
@@ -335,13 +260,13 @@
         <div class="span3" id="sidebar">
             <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
                 <li class="active">
-                    <a href="admin.php"><i class="icon-chevron-right"></i> Tableau de bord</a>
+                    <a href="../../admin.php"><i class="icon-chevron-right"></i> Tableau de bord</a>
                 </li>
                 <li >
-                    <a href="candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
+                    <a href="../../candidats.php"><i class="icon-chevron-right"></i>Liste des candidats</a>
                 </li>
                 <li>
-                    <a href="calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
+                    <a href="../../calendar.php"><i class="icon-chevron-right"></i> Calendrie</a>
                 </li>
             </ul>
         </div>
