@@ -65,19 +65,19 @@ if(!isset($_SESSION['login'])){
                                 </a>
                                 <ul class="dropdown-menu" id="menu1">
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/candidats.php">Nombre de candidats</a>
+                                        <a href="statistiques/statistiquesnonconfirme/candidats.php">Nombre de candidats</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/nationalite.php">Nationalité</a>
+                                        <a href="statistiques/statistiquesnonconfirme/nationalite.php">Nationalité</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/sexe.php">Sexe</a>
+                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">Sexe</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/niveau.php">Niveau</a>
+                                        <a href="statistiques/statistiquesnonconfirme/niveau.php">Niveau</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/departement.php">Département</a>
+                                        <a href="statistiques/statistiquesnonconfirme/departement.php">Département</a>
                                     </li>
                                     <li>
                                         <a href="statistiques/statistiquesconfirme/statistiquesformation.php">Formation</a>

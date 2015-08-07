@@ -413,7 +413,6 @@
             $i = 0;
 
             foreach ($rep as $key => $value) {
-                $nat =  $rep[$key]["sexe"];
                 $i++;
             }
             return $i;
@@ -425,7 +424,6 @@
             $i = 0;
 
             foreach ($rep as $key => $value) {
-                $nat =  $rep[$key]["sexe"];
                 $i++;
             }
             return $i;
@@ -437,10 +435,35 @@
             $i = 0;
 
             foreach ($rep as $key => $value) {
-                $nat =  $rep[$key]["sexe"];
                 $i++;
             }
             return $i;
         }
+
+        public function getNbCandidatsPays($paye){
+            $req = $this->getPDO()->prepare("SELECT nationalite FROM pre_candidat WHERE nationalite like :pays");
+            $req->execute(array(':pays' => '%'.$paye.'%'));
+            $rep =  $req->fetchAll();
+            $i = 0;
+
+            foreach ($rep as $key => $value) {
+                $i++;
+            }
+            return $i;
+        }
+
+        public function getNbEtat($etat){
+            $req = $this->getPDO()->prepare("SELECT `idDossierCandidature` FROM `pre_dossiercandidature` WHERE statut = :stat");
+            $req->execute(array(':stat' => $etat));
+            $rep =  $req->fetchAll();
+            $i = 0;
+
+            foreach ($rep as $key => $value) {
+                $i++;
+            }
+            return $i;
+        }
+
+        
 }
 ?>

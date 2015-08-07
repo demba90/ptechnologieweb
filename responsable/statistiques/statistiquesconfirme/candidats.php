@@ -1,34 +1,44 @@
+<?php
+session_start();
+
+include "../ManageurDB.php";
+
+$man = new ManageurDB();
+
+if(!isset($_SESSION['login'])){
+    header('Location:../../index.php');
+}
+?>
 <!DOCTYPE html>
 <html class="no-js">
 
 <head>
-    <title>Tableau de bord</title>
     <meta charset="UTF-8"/>
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
-    <link href="assets/styles.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/assets/styles.css" rel="stylesheet" media="screen">
 
     <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <!--/.fluid-container-->
-    <title>Statistique 4</title>
-    <script src="vendors/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendors/easypiechart/jquery.easy-pie-chart.js"></script>
-    <script src="assets/scripts.js"></script>
+    <title>Candidant non confirmés</title>
+    <script src="../statistiquesconfirme/vendors/jquery-1.9.1.min.js"></script>
+    <script src="../statistiquesconfirme/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../statistiquesconfirme/vendors/easypiechart/jquery.easy-pie-chart.js"></script>
+    <script src="../statistiquesconfirme/assets/scripts.js"></script>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="../statistiquesconfirme/js/jquery.min.js"></script>
 
     <style type="text/css">
         ${demo.css}
     </style>
 
     <![endif]-->
-    <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="../statistiquesconfirme/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script type="text/javascript">
         $(function () {
             $('#container').highcharts({
@@ -36,38 +46,29 @@
                     type: 'column'
                 },
                 title: {
-                    text: 'Monthly Average Rainfall'
+                    text: 'Candidats confirmé 2016'
                 },
                 subtitle: {
-                    text: 'Source: WorldClimate.com'
+                    text: 'Source: esp.sn'
                 },
                 xAxis: {
                     categories: [
-                        'Jan',
-                        'Feb',
-                        'Mar',
-                        'Apr',
-                        'May',
-                        'Jun',
-                        'Jul',
-                        'Aug',
-                        'Sep',
-                        'Oct',
-                        'Nov',
-                        'Dec'
+                        'DUT',
+                        'DEST',
+                        'DIC'
                     ],
                     crosshair: true
                 },
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Rainfall (mm)'
+                        text: 'Candidats confirmé DGI 2016'
                     }
                 },
                 tooltip: {
                     headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
                     pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                    '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                    '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>',
                     footerFormat: '</table>',
                     shared: true,
                     useHTML: true
@@ -79,20 +80,20 @@
                     }
                 },
                 series: [{
-                    name: 'Tokyo',
-                    data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+                    name: 'DUT1',
+                    data: [5, 5, 4, 2, 0, 0, 6, 5,4,1, 6, 4]
 
                 }, {
-                    name: 'New York',
-                    data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
+                    name: 'DEST',
+                    data: [6,8,5,4, 0,5, 0, 3, 2, 5, 6, 3]
 
                 }, {
-                    name: 'London',
-                    data: [48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2]
+                    name: 'DIC1',
+                    data: [9,8,3,4,0,3,0, 6, 4, 2,3,2]
 
                 }, {
-                    name: 'Berlin',
-                    data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1]
+                    name: 'DIC2',
+                    data: [4,2,5,7,6,5,4,4,6,1,8,1]
 
                 }]
             });
@@ -111,7 +112,7 @@
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li class="dropdown">
-                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Gervais Mendy <i class="caret"></i>
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> <?php  echo $_SESSION['cone']['prenom']." ".$_SESSION['cone']['nom']?><i class="caret"></i>
 
                         </a>
                         <ul class="dropdown-menu">
@@ -120,7 +121,7 @@
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a tabindex="-1" href="logout.php">Logout</a>
+                                <a tabindex="-1" href="../../logout.php">Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -217,9 +218,9 @@
                                 <a href="#">Tableau de bord</a> <span class="divider">/</span>
                             </li>
                             <li>
-                                <a href="#">Suivis</a> <span class="divider">/</span>
+                                <a href="#">Statistiques</a> <span class="divider">/</span>
                             </li>
-                            <li class="active">Outils</li>
+                            <li class="active">Candidats confirmé</li>
                         </ul>
                     </div>
                 </div>
@@ -233,8 +234,8 @@
     </footer>
 </div>
 
-<script src="js/highcharts.js"></script>
-<script src="js/modules/exporting.js"></script>
+<script src="../statistiquesconfirme/js/highcharts.js"></script>
+<script src="../statistiquesconfirme/js/modules/exporting.js"></script>
 
 
 </body>

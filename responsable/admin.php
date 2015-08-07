@@ -65,19 +65,19 @@ if(!isset($_SESSION['login'])){
                                 </a>
                                 <ul class="dropdown-menu" id="menu1">
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/candidats.php">Nombre de candidats</a>
+                                        <a href="statistiques/statistiquesnonconfirme/candidats.php">Nombre de candidats</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/nationalite.php">Nationalité</a>
+                                        <a href="statistiques/statistiquesnonconfirme/nationalite.php">Nationalité</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/sexe.php">Sexe</a>
+                                        <a href="statistiques/statistiquesnonconfirme/sexe.php">Sexe</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/niveau.php">Niveau</a>
+                                        <a href="statistiques/statistiquesnonconfirme/niveau.php">Niveau</a>
                                     </li>
                                     <li>
-                                        <a href="statistiques/statistiquesconfirme/departement.php">Département</a>
+                                        <a href="statistiques/statistiquesnonconfirme/departement.php">Département</a>
                                     </li>
                                     <li>
                                         <a href="statistiques/statistiquesconfirme/statistiquesformation.php">Formation</a>
@@ -160,7 +160,7 @@ if(!isset($_SESSION['login'])){
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
                                 <div class="muted pull-left">Statistiques sexe</div>
-                                <div class="pull-right"><span class="badge badge-warning">View More</span>
+                                <div class="pull-right"><span class="badge badge-warning"></span>
 
                                 </div>
                             </div>
@@ -169,20 +169,70 @@ if(!isset($_SESSION['login'])){
                                     <?php $n = $man->getHomme()*100/$man->getNbCandidats();
                                     echo '<div class="chart" data-percent='.$n.'>'.$n.'</div>
                                     <div class="chart-bottom-heading" title="Sexe homme" ><span class="label label-info">Homme</span>';?>
-                                    </div>
                                 </div>
+                            </div>
                                 <div class="span3">
                                     <?php $n = $man->getFemme()*100/$man->getNbCandidats();
                                     echo '<div class="chart" data-percent='.$n.'>'.$n.'</div>
                                     <div class="chart-bottom-heading"><span class="label label-info">Femme</span>';?>
-                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <!-- block -->
+                        <div class="block">
+                            <div class="navbar navbar-inner block-header">
+                                <div class="muted pull-left">Statistiques Nationalité</div>
+                                <div class="pull-right"><span class="badge badge-warning"></span>
+
                                 </div>
                             </div>
+                            <div class="block-content collapse in">
+                                <div class="span3">
+                                    <?php $s = $man->getNbCandidatsPays("Senegalaise")*100/$man->getNbCandidats();
+                                    echo '<div class="chart" data-percent='.$s.'>'.$s.'</div>
+                                     <div class="chart-bottom-heading"><span class="label label-info">Sénégalaise</span>';?>
+                                </div>
+                            </div>
+                            <div class="span3">
+                                <?php $m = $man->getNbCandidatsPays("Mauritanie")*100/$man->getNbCandidats();
+                                echo '<div class="chart" data-percent='.$m.'>'.$m.'</div>
+                                     <div class="chart-bottom-heading"><span class="label label-info">Mauritanienne</span>';?>
+                            </div>
                         </div>
-                        <!-- /block -->
                     </div>
-                </div>
+                    <div class="row-fluid">
+                        <!-- block -->
+                        <div class="block">
+                            <div class="navbar navbar-inner block-header">
+                                <div class="muted pull-left">Statistiques Etat Dossier</div>
+                                <div class="pull-right"><span class="badge badge-warning"></span>
+
+                                </div>
+                            </div>
+                            <div class="block-content collapse in">
+                                <div class="span3">
+                                    <?php $s = $man->getNbEtat("cours")*100/$man->getNbCandidats();
+                                    echo '<div class="chart" data-percent='.$s.'>'.$s.'</div>
+                                     <div class="chart-bottom-heading"><span class="label label-info">En cours</span>';?>
+                                </div>
+                            </div>
+                            <div class="span3">
+                                <?php $m = $man->getNbEtat("attente")*50/$man->getNbCandidats();
+                                echo '<div class="chart" data-percent='.$m.'>'.$m.'</div>
+                                     <div class="chart-bottom-heading"><span class="label label-info">En attente</span>';?>
+                            </div>
+                           </div>
+                            <div class="span4">
+                                <?php $m = $man->getNbEtat("valide")*100/$man->getNbCandidats();
+                                echo '<div class="chart" data-percent='.$m.'>'.$m.'</div>
+                                     <div class="chart-bottom-heading"><span class="label label-info">Valide</span>';?>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
+
             <hr>
             <footer>
                 <p>&copy; ESP-DGI-DIC2-2014/2015</p>

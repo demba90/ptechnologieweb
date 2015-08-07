@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+include "../ManageurDB.php";
+
+$man = new ManageurDB();
+
+if(!isset($_SESSION['login'])){
+    header('Location:../../index.php');
+}
+?>
 <!DOCTYPE html>
 <html class="no-js">
 
@@ -5,10 +16,10 @@
     <title>Tableau de bord</title>
     <meta charset="UTF-8"/>
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
-    <link href="assets/styles.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
+    <link href="../statistiquesconfirme/assets/styles.css" rel="stylesheet" media="screen">
 
     <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -16,18 +27,19 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <!--/.fluid-container-->
     <title>Statistique 4</title>
-    <script src="vendors/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendors/easypiechart/jquery.easy-pie-chart.js"></script>
-    <script src="assets/scripts.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="../statistiquesconfirme/vendors/jquery-1.9.1.min.js"></script>
+    <script src="../statistiquesconfirme/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../statistiquesconfirme/vendors/easypiechart/jquery.easy-pie-chart.js"></script>
+    <script src="../statistiquesconfirme/assets/scripts.js"></script>
+    <script type="text/javascript" src="../statistiquesconfirme/js/jquery.min.js"></script>
     <style type="text/css">
     ${demo.css}
     </style>
 
-    <script type="text/javascript">
 
-    $(function () {
+
+        <script type='text/javascript'>
+  $(function () {
         // Create the chart
         $('#container').highcharts({
             chart: {
@@ -71,11 +83,11 @@
                 colorByPoint: true,
                 data: [{
                     name: 'Homme',
-                    y: 63.00,
+                    y: 70.00,
                     drilldown: 'Homme'
                 }, {
                     name: 'Femme',
-                    y:37.00,
+                    y:30.00,
                     drilldown: 'Femme'
                 }]
             }],
@@ -154,7 +166,8 @@
             }
         });
     });
-     </script>
+     </script>";
+    ?>
 </head>
 <body>
 <div class="navbar navbar-fixed-top">
@@ -168,7 +181,7 @@
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li class="dropdown">
-                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Gervais Mendy <i class="caret"></i>
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> <?php  echo $_SESSION['cone']['prenom']." ".$_SESSION['cone']['nom']?> <i class="caret"></i>
 
                         </a>
                         <ul class="dropdown-menu">
@@ -177,7 +190,7 @@
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a tabindex="-1" href="logout.php">Logout</a>
+                                <a tabindex="-1" href="../../logout.php">Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -192,22 +205,22 @@
                         </a>
                         <ul class="dropdown-menu" id="menu1">
                             <li>
-                                <a href="../statistiquesconfirme/candidats.php">Nombre de candidats</a>
+                                <a href="candidats.php">Nombre de candidats</a>
                             </li>
                             <li>
-                                <a href="../statistiquesconfirme/nationalite.php">Nationalité</a>
+                                <a href="nationalite.php">Nationalité</a>
                             </li>
                             <li>
-                                <a href="../statistiquesconfirme/sexe.php">Sexe</a>
+                                <a href="sexe.php">Sexe</a>
                             </li>
                             <li>
-                                <a href="../statistiquesconfirme/niveau.php">Niveau</a>
+                                <a href="niveau.php">Niveau</a>
                             </li>
                             <li>
-                                <a href="../statistiquesconfirme/sexe.php">Département</a>
+                                <a href="sexe.php">Département</a>
                             </li>
                             <li>
-                                <a href="../statistiquesconfirme/formation.php">Formation</a>
+                                <a href="formation.php">Formation</a>
                             </li>
                         </ul>
                     </li>
@@ -223,13 +236,13 @@
                                 <a href="nationalite.php">Nationalité</a>
                             </li>
                             <li>
-                                <a href="sexe.php">sexe</a>
+                                <a href="../statistiquesnonconfirme/sexe.php">sexe</a>
                             </li>
                             <li>
-                                <a href=" niveau.php">Niveau</a>
+                                <a href="niveau.php">Niveau</a>
                             </li>
                             <li>
-                                <a href="sexe.php">Département</a>
+                                <a href="../statistiquesnonconfirme/sexe.php">Département</a>
                             </li>
                             <li>
                                 <a href="formation.php">Formation</a>
@@ -290,7 +303,7 @@
     </footer>
 </body>
 
-<script src="js/highcharts.js"></script>
-<script src="js/modules/exporting.js"></script>
+<script src="../statistiquesconfirme/js/highcharts.js"></script>
+<script src="../statistiquesconfirme/js/modules/exporting.js"></script>
 
 </html>
