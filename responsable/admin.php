@@ -60,12 +60,12 @@ if(!isset($_SESSION['login'])){
                                 <a href="admin.php">Tableau de bord</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Suivis <b class="caret"></b>
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Statistiques <b class="caret"></b>
 
                                 </a>
                                 <ul class="dropdown-menu" id="menu1">
                                     <li>
-                                        <a href="#">Reports</a>
+                                        <a href="stats4.php">Stat demo</a>
                                     </li>
                                     <li>
                                         <a href="#">Erreurs</a>

@@ -256,8 +256,12 @@
 
                         <div  style="margin-top: 10px;" id="contact_form" class="col-md-5">
                             <div class="row">
-                                <label for="captcha" >Recopiez le mot : <img src="captcha.php" alt="Captcha" /><?php if(isset($_GET["captcha"]))
-                                        echo '<p id="errorcapt"> Le mot ne correspond pas</p>' ;?></label>
+                                <label for="captcha" >Recopiez le mot : <img src="captcha.php" alt="Captcha" />
+                                        <?php if(isset($_GET["captcha"])){
+                                        echo '<p id="errorcapt"> Le mot ne correspond pas</p>' ;
+                                    }
+                                    ?>
+                                </label>
                                 <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Pour des raisons de sécurité, entré le code afficher en haut" />
                             </div>
                            </div>
